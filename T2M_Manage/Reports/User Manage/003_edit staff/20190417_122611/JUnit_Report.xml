@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="003_edit staff" time="60" tests="2" failures="2" errors="1">
+   <testsuite name="003_edit staff" tests="2" failures="2" errors="1" time="60" timestamp="2019-04-17 12:26:14" hostname="Administrator - BF-20170623WSST" id="Test Suites/User Manage/003_edit staff">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611"/>
+         <property name="logFiles" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\execution0.log"/>
+         <property name="attachments" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475187578.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475198182.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475228485.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475232183.png"/>
+         <property name="hostName" value="Administrator - BF-20170623WSST"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.75"/>
+         <property name="hostAddress" value="192.168.10.86"/>
+         <property name="sessionId" value="c8a550e5b989d5fdcc44f4feefac0557"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/001_Login_Home/002_Login" classname="Test Cases/001_Login_Home/002_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 12:26:15 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 12:26:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:26:15 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:26:15 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:26:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 12:26:15 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 12:26:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 12:26:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 12:26:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 12:26:21 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 12:26:21 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 12:26:22 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 12:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 12:26:22 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 12:26:22 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 12:26:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 12:26:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:23 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 12:26:23 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 12:26:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:24 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 12:26:24 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 12:26:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:25 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 12:26:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 12:26:25 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 12:26:25 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 12:26:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 12:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 12:26:26 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 12:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 12:26:27 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 12:26:27 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 12:26:27 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 12:26:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475187578.png]]
+
+2019-04-17 12:26:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 12:26:27 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:26:27 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User" classname="Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User" status="PASSED">
+         <system-out><![CDATA[2019-04-17 12:26:30 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User: Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User
+
+2019-04-17 12:26:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:26:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:26:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:26:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 12:26:30 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 12:26:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 12:26:30 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 12:26:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 12:26:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 12:26:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 12:26:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 12:26:34 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 12:26:34 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 12:26:34 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 12:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 12:26:34 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 12:26:34 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 12:26:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 12:26:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:35 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 12:26:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 12:26:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:36 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 12:26:36 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 12:26:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:37 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 12:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 12:26:37 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 12:26:37 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 12:26:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 12:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 12:26:37 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 12:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 12:26:38 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 12:26:38 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 12:26:38 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 12:26:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475198182.png]]
+
+2019-04-17 12:26:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 12:26:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 12:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 12:26:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 12:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 12:26:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:41 - [TEST_STEP][PASSED] - Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0): Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 12:26:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 12:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 12:26:42 - [TEST_STEP][PASSED] - Statement - If (verify_user): Enter the Successfully entered the people management page
+
+2019-04-17 12:26:42 - [TEST_STEP][PASSED] - comment: Enter the Successfully entered the people management page
+
+2019-04-17 12:26:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 12:26:42 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:26:42 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage" classname="Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage" status="ERROR">
+         <error type="ERROR" message="Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: Script1555402638307.TakeScreenshotKeyword() is applicable for argument types: (java.lang.String) values: [用户详情]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:58)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at Script1555402638307.run(Script1555402638307.groovy:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2019-04-17 12:26:44 - [TEST_CASE][ERROR] - Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage: Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: Script1555402638307.TakeScreenshotKeyword() is applicable for argument types: (java.lang.String) values: [用户详情]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:58)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at Script1555402638307.run(Script1555402638307.groovy:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2019-04-17 12:26:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:26:44 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:26:44 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:26:44 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 12:26:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 12:26:44 - [TEST_STEP][PASSED] - setText: Text '林' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 12:26:44 - [MESSAGE][PASSED] - Text '林' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 12:26:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 12:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 12:26:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - i = 1: null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - userinfo = []: null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= 5, (j++)]): null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '吴有林'
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '吴有林'
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: 'R&D Director'
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: 'R&D Director'
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '1@1. com'
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '1@1. com'
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 12:26:47 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 12:26:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:48 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:48 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '13011223344'
+
+2019-04-17 12:26:48 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '13011223344'
+
+2019-04-17 12:26:48 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 12:26:48 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 12:26:49 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 12:26:49 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 12:26:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:49 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 12:26:49 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '在职'
+
+2019-04-17 12:26:50 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '在职'
+
+2019-04-17 12:26:50 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 12:26:50 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 12:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_first' is clicked on
+
+2019-04-17 12:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_first' is clicked on
+
+2019-04-17 12:26:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-04-17 12:27:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - userdetail = []: null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _realname): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _realname'
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - position = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _position): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _position'
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - mobile = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _mobile): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _mobile'
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - email = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _email): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _email'
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - element1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(name, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _realname' located by 'By.xpath: //input[@name='realname']' in '30' second(s)
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - element2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(position, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _position' located by 'By.xpath: //input[@name='position']' in '30' second(s)
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - element3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(mobile, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _mobile' located by 'By.xpath: //input[@name='mobile']' in '30' second(s)
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - element4 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(email, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _email' located by 'By.xpath: //input[@name='email']' in '30' second(s)
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - js = driver: null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - value1 = js.executeScript("return arguments[0].value", element1).toString(): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - userdetail.add(value1): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - value2 = js.executeScript("return arguments[0].value", element2).toString(): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - userdetail.add(value2): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - value4 = js.executeScript("return arguments[0].value", element4).toString(): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - userdetail.add(value4): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - value3 = js.executeScript("return arguments[0].value", element3).toString(): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - userdetail.add(value3): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - duty = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/i_), 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/i_' located by 'By.xpath: //i[(text() = '' or . = '')]' in '30' second(s)
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - value5 = js.executeScript("return $("[name='state']").val()", duty).toString(): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - println(value5): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - If (value5 == "1"): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - userdetail.add("在职"): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - println(userdetail): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - If (userinfo == userdetail): null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - comment: 编辑框中的信息与列表中数据不一致
+
+2019-04-17 12:27:01 - [TEST_STEP][PASSED] - Statement - TakeScreenshotKeyword("用户详情"): null
+
+2019-04-17 12:27:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 12:27:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:27:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2019-04-17 12:26:44 - [TEST_CASE][ERROR] - Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage: Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: Script1555402638307.TakeScreenshotKeyword() is applicable for argument types: (java.lang.String) values: [用户详情]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:58)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at Script1555402638307.run(Script1555402638307.groovy:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error" classname="Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button id=&quot;searchButton&quot; class=&quot;layui-btn &quot; lay-submit=&quot;&quot; lay-filter=&quot;sreachBtn&quot;>...&lt;/button> is not clickable at point (468, 157). Other element would receive the click: &lt;input type=&quot;text&quot; id=&quot;editDeptName&quot; name=&quot;deptname&quot; autocomplete=&quot;off&quot; placeholder=&quot;请选择&quot; readonly=&quot;&quot; class=&quot;layui-input layui-unselect&quot;>
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1555403928934.run(Script1555403928934.groovy:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2019-04-17 12:27:05 - [TEST_CASE][FAILED] - Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error: Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1555403928934.run(Script1555403928934.groovy:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2019-04-17 12:27:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:27:05 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:27:05 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:27:05 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 12:27:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 12:27:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-17 12:27:07 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 12:27:07 - [TEST_STEP][PASSED] - setText: Text '林' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 12:27:07 - [MESSAGE][PASSED] - Text '林' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 12:27:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:27:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:27:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+
+2019-04-17 12:27:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475228485.png]]
+
+2019-04-17 12:27:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 12:27:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:27:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2019-04-17 12:27:05 - [TEST_CASE][FAILED] - Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error: Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1555403928934.run(Script1555403928934.groovy:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal" classname="Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button id=&quot;searchButton&quot; class=&quot;layui-btn &quot; lay-submit=&quot;&quot; lay-filter=&quot;sreachBtn&quot;>...&lt;/button> is not clickable at point (468, 157). Other element would receive the click: &lt;input type=&quot;text&quot; id=&quot;editDeptName&quot; name=&quot;deptname&quot; autocomplete=&quot;off&quot; placeholder=&quot;请选择&quot; readonly=&quot;&quot; class=&quot;layui-input layui-unselect&quot;>
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1555406402089.run(Script1555406402089.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2019-04-17 12:27:10 - [TEST_CASE][FAILED] - Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal: Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1555406402089.run(Script1555406402089.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2019-04-17 12:27:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:27:10 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:27:10 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 12:27:11 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 12:27:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 12:27:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-17 12:27:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 12:27:11 - [TEST_STEP][PASSED] - setText: Text '林' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 12:27:11 - [MESSAGE][PASSED] - Text '林' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 12:27:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 12:27:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 12:27:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+
+2019-04-17 12:27:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\003_edit staff\\20190417_122611\\1555475232183.png]]
+
+2019-04-17 12:27:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 12:27:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 12:27:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2019-04-17 12:27:10 - [TEST_CASE][FAILED] - Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal: Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/test/button__layui-btn' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="searchButton" class="layui-btn " lay-submit="" lay-filter="sreachBtn">...</button> is not clickable at point (468, 157). Other element would receive the click: <input type="text" id="editDeptName" name="deptname" autocomplete="off" placeholder="请选择" readonly="" class="layui-input layui-unselect">
+  (Session info: headless chrome=73.0.3683.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BF-20170623WSST', ip: '192.168.10.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: c8a550e5b989d5fdcc44f4feefac0557)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1555406402089.run(Script1555406402089.groovy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 12:26:14 - [TEST_SUITE][ERROR] - 003_edit staff: Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: Script1555402638307.TakeScreenshotKeyword() is applicable for argument types: (java.lang.String) values: [用户详情]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:58)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at Script1555402638307.run(Script1555402638307.groovy:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2019-04-17 12:26:14 - [TEST_SUITE][ERROR] - 003_edit staff: Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: Script1555402638307.TakeScreenshotKeyword() is applicable for argument types: (java.lang.String) values: [用户详情]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:58)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at Script1555402638307.run(Script1555402638307.groovy:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1555475171536.run(TempTestSuite1555475171536.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

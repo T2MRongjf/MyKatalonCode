@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1.打开编辑窗口，检查列表中的数据与编辑页面数据一致。</description>
+   <name>009_check_userEditpage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a13078b-61fc-4eb6-aad2-5a71615f3db5</testCaseGuid>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>2f2981e0-2b02-43de-a2b0-b6bd8eac4daf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

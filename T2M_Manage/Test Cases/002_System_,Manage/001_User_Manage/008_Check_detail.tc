@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1.检查人员详情页面数据，验证数据是否与添加的数据一致，确认没有丢失。</description>
+   <name>008_Check_detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec0368d9-cd70-4461-ad84-d6990322e74b</testCaseGuid>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>7968eaca-e630-41f5-b9df-03321e3a5ed2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

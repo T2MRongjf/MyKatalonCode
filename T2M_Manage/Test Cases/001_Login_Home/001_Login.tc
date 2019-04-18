@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>错误账号和密码验证</description>
+   <name>001_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d36bed06-aa90-4f90-bab1-12080353ae84</testCaseGuid>
+   <variable>
+      <defaultValue>'admin111'</defaultValue>
+      <description></description>
+      <id>05f8f9ec-8b52-45dc-b725-b20b4ca86a38</id>
+      <masked>true</masked>
+      <name>account_error</name>
+   </variable>
+   <variable>
+      <defaultValue>'654321'</defaultValue>
+      <description></description>
+      <id>f124a5f0-db0b-4d1d-9c5f-c304d358d3a0</id>
+      <masked>true</masked>
+      <name>pwd_error</name>
+   </variable>
+</TestCaseEntity>

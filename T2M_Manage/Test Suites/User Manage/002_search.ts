@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>验证编辑用户成功</description>
+   <name>002_search</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-04-17T14:49:28</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>59fe0866-81da-4058-bf7f-196ae63758b8</testSuiteGuid>
+   <testCaseLink>
+      <guid>9b5afc7e-d2b5-4cc9-8f76-ebfea725f1f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/001_Login_Home/002_Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fdd0141c-5c6c-4661-8048-9ad7b7d217a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c2e6f383-bea3-4013-980c-f46bdb32961c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b2fed824-2c7f-4d85-a531-39d0a4fef1a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>308c7a6a-d17e-4d70-805a-429372084c72</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/002_System_,Manage/001_User_Manage/004_Searchbox</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>44dbb893-001f-420d-9e2f-84b177908bbf</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/userinfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>522ac488-33e6-4865-9193-96a9b914ad4f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31aa672b-376f-4f8b-a2a4-eae327faac87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aa72e40c-a748-4cf1-aa84-9a5841e0ebaf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a8ee74f-5354-46a7-8935-cbd9979e542a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/002_System_,Manage/001_User_Manage/005_Verify_search_Result</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>312735b4-897f-4574-ba64-cea0d27f24dc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbb95c8a-5cd9-4e33-a4e0-808b51263d86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/002_System_,Manage/001_User_Manage/006_paging_verify</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d94cca8f-397b-4b37-a6b6-bbc4fbe6471a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/002_System_,Manage/001_User_Manage/007_page_default</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>在第一页搜索</description>
+   <name>First_page_search_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c16963ff-22a9-48e7-9121-efdf0fa0bdab</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>信息全部输入，或者支持不填写邮箱，保存成功。最后通过搜索刚才编辑的用户，验证是否成功编辑。</description>
+   <name>011_edit_user_normal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b88ff53d-2016-4d9e-9a7f-7ece3461a513</testCaseGuid>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>3083c057-4e73-485f-952f-ae60709f046c</id>
+      <masked>false</masked>
+      <name>usersearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'编辑姓名11'</defaultValue>
+      <description></description>
+      <id>7f0eeebe-6473-462a-929b-0fdcd5072e94</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'tester'</defaultValue>
+      <description></description>
+      <id>4249bf67-d5a9-4558-8362-08c138499f06</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+   <variable>
+      <defaultValue>'154876865365'</defaultValue>
+      <description></description>
+      <id>cfb96ce0-b036-4467-a163-46a1b1bd3690</id>
+      <masked>false</masked>
+      <name>mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>'752658458@qq.com'</defaultValue>
+      <description></description>
+      <id>800bc8c8-0561-4fec-9ac8-1652dab3077d</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

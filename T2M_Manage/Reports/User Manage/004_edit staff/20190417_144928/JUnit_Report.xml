@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="004_edit staff" time="122" tests="5" failures="0" errors="0">
+   <testsuite name="004_edit staff" tests="5" failures="0" errors="0" time="122" timestamp="2019-04-17 15:06:09" hostname="Administrator - BF-20170623WSST" id="Test Suites/User Manage/004_edit staff">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928"/>
+         <property name="logFiles" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\execution0.log"/>
+         <property name="attachments" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484783915.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484795879.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484810949.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484831324.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484868440.png"/>
+         <property name="hostName" value="Administrator - BF-20170623WSST"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.75"/>
+         <property name="hostAddress" value="192.168.10.86"/>
+         <property name="sessionId" value="7059534010933628f2ac26c8f75d3e9a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/001_Login_Home/002_Login" classname="Test Cases/001_Login_Home/002_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:06:10 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 15:06:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:06:10 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:06:10 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:06:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:06:11 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 15:06:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 15:06:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 15:06:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:06:18 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:06:18 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 15:06:18 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:06:18 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 15:06:18 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 15:06:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:06:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:20 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:06:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:06:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:21 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:06:21 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:06:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:22 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:06:22 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 15:06:22 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 15:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:06:22 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:06:23 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 15:06:23 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 15:06:23 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 15:06:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484783915.png]]
+
+2019-04-17 15:06:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 15:06:24 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:06:24 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User" classname="Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:06:26 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User: Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User
+
+2019-04-17 15:06:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:06:26 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:06:26 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:06:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:06:26 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 15:06:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:06:26 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 15:06:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 15:06:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 15:06:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 15:06:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:06:31 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:06:31 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 15:06:31 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:06:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:06:31 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 15:06:31 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 15:06:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:06:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:32 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:06:32 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:06:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:33 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:06:33 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:06:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:34 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:06:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:06:34 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 15:06:34 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 15:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:06:34 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:06:35 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:06:35 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 15:06:35 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 15:06:35 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 15:06:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484795879.png]]
+
+2019-04-17 15:06:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:06:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:06:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:06:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:39 - [TEST_STEP][PASSED] - Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0): Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 15:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:06:40 - [TEST_STEP][PASSED] - Statement - If (verify_user): Enter the Successfully entered the people management page
+
+2019-04-17 15:06:40 - [TEST_STEP][PASSED] - comment: Enter the Successfully entered the people management page
+
+2019-04-17 15:06:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 15:06:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:06:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage" classname="Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:06:42 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage: Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage
+
+2019-04-17 15:06:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:06:42 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:06:42 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:06:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User' successfully
+
+2019-04-17 15:06:42 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User: Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User
+
+2019-04-17 15:06:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:06:42 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 15:06:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:06:42 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 15:06:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 15:06:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 15:06:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 15:06:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:06:46 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:06:46 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 15:06:46 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:06:46 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 15:06:46 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 15:06:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:06:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:06:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:06:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:49 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:06:49 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:06:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:06:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:06:50 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 15:06:50 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 15:06:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484810949.png]]
+
+2019-04-17 15:06:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:06:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:06:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:06:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:54 - [TEST_STEP][PASSED] - Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0): Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:06:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 15:06:54 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:06:54 - [TEST_STEP][PASSED] - Statement - If (verify_user): Enter the Successfully entered the people management page
+
+2019-04-17 15:06:54 - [TEST_STEP][PASSED] - comment: Enter the Successfully entered the people management page
+
+2019-04-17 15:06:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User' successfully
+
+2019-04-17 15:06:54 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:06:55 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:06:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:06:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - i = 1: null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - userinfo = []: null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= 5, (j++)]): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '测试人员13'
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '测试人员13'
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '测试岗位1'
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '测试岗位1'
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: 'f1224359483w90@gamil.com'
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: 'f1224359483w90@gamil.com'
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '15263625410'
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '15263625410'
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true): Modify property of object successfully
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is present
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText"): Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '在职'
+
+2019-04-17 15:06:57 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/Syetem_settings/User_Manage/Search/tr_td' is: '在职'
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - userinfo.add(data): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - Statement - println(userinfo): null
+
+2019-04-17 15:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_staff' is clicked on
+
+2019-04-17 15:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_staff' is clicked on
+
+2019-04-17 15:06:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 15:07:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - userdetail = []: null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _realname): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _realname'
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - position = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _position): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _position'
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - mobile = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _mobile): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _mobile'
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - email = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _email): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _email'
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - element1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(name, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _realname' located by 'By.xpath: //input[@name='realname']' in '30' second(s)
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - element2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(position, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _position' located by 'By.xpath: //input[@name='position']' in '30' second(s)
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - element3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(mobile, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _mobile' located by 'By.xpath: //input[@name='mobile']' in '30' second(s)
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - element4 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(email, 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_  _email' located by 'By.xpath: //input[@name='email']' in '30' second(s)
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - js = driver: null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - value1 = js.executeScript("return arguments[0].value", element1).toString(): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - userdetail.add(value1): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - value2 = js.executeScript("return arguments[0].value", element2).toString(): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - userdetail.add(value2): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - value4 = js.executeScript("return arguments[0].value", element4).toString(): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - userdetail.add(value4): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - value3 = js.executeScript("return arguments[0].value", element3).toString(): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - userdetail.add(value3): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - duty = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/i_), 30): Found 1 web elements with id: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/i_' located by 'By.xpath: //i[(text() = '' or . = '')]' in '30' second(s)
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - value5 = js.executeScript("return $("[name='state']").val()", duty).toString(): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - println(value5): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - If (value5 == "1"): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - userdetail.add("在职"): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - println(userdetail): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - If (userinfo == userdetail): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - comment: 编辑框中的信息没有丢失，与列表中数据一致
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/close_eidt' is clicked on
+
+2019-04-17 15:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/close_eidt' is clicked on
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:07:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error" classname="Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:07:02 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error: Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error
+
+2019-04-17 15:07:02 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:07:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:07:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:07:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User' successfully
+
+2019-04-17 15:07:03 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User: Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User
+
+2019-04-17 15:07:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:07:03 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 15:07:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:07:03 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 15:07:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 15:07:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 15:07:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 15:07:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:07:07 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:07:07 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 15:07:07 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:07:07 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 15:07:07 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 15:07:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:07:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:08 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:07:08 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:07:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:09 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:07:09 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:07:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:10 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:07:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:07:10 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 15:07:10 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 15:07:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:07:10 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:07:11 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 15:07:11 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 15:07:11 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 15:07:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484831324.png]]
+
+2019-04-17 15:07:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:07:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:07:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:07:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:15 - [TEST_STEP][PASSED] - Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0): Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 15:07:15 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:07:15 - [TEST_STEP][PASSED] - Statement - If (verify_user): Enter the Successfully entered the people management page
+
+2019-04-17 15:07:15 - [TEST_STEP][PASSED] - comment: Enter the Successfully entered the people management page
+
+2019-04-17 15:07:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User' successfully
+
+2019-04-17 15:07:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-17 15:07:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:07:16 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:07:16 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:07:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:07:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_first' is clicked on
+
+2019-04-17 15:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_first' is clicked on
+
+2019-04-17 15:07:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 15:07:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:07:21 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_ realname'
+
+2019-04-17 15:07:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_ realname'
+
+2019-04-17 15:07:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:22 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_position'
+
+2019-04-17 15:07:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_position'
+
+2019-04-17 15:07:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:23 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input__mobile'
+
+2019-04-17 15:07:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input__mobile'
+
+2019-04-17 15:07:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_email'
+
+2019-04-17 15:07:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_email'
+
+2019-04-17 15:07:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/button_Saveedit' is clicked on
+
+2019-04-17 15:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/button_Saveedit' is clicked on
+
+2019-04-17 15:07:25 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/tips_save), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 15:07:25 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/tips_save' is present
+
+2019-04-17 15:07:25 - [TEST_STEP][PASSED] - comment: 发现不能为空的提示
+
+2019-04-17 15:07:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 15:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 15:07:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 15:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 15:07:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 15:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 15:07:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 15:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 15:07:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 15:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 15:07:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:32 - [TEST_STEP][PASSED] - setText: Text '编辑用户测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 15:07:32 - [MESSAGE][PASSED] - Text '编辑用户测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 15:07:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:33 - [TEST_STEP][PASSED] - setText: Text '编辑岗位测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 15:07:33 - [MESSAGE][PASSED] - Text '编辑岗位测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 15:07:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:34 - [TEST_STEP][PASSED] - setText: Text '15265478595' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 15:07:35 - [MESSAGE][PASSED] - Text '15265478595' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 15:07:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:36 - [TEST_STEP][PASSED] - setText: Text '15456' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 15:07:36 - [MESSAGE][PASSED] - Text '15456' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 15:07:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 15:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 15:07:36 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/save_email), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 15:07:36 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/save_email' is present
+
+2019-04-17 15:07:36 - [TEST_STEP][PASSED] - comment: 发现邮件格式不对的提示
+
+2019-04-17 15:07:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 15:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 15:07:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 15:07:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:07:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal" classname="Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:07:39 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal: Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal
+
+2019-04-17 15:07:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:07:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:07:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 15:07:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User' successfully
+
+2019-04-17 15:07:40 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User: Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User
+
+2019-04-17 15:07:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:07:40 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 15:07:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:07:40 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 15:07:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 15:07:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 15:07:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 15:07:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:07:44 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 15:07:44 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 15:07:44 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:07:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 15:07:44 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 15:07:44 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 15:07:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 15:07:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:45 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:07:45 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 15:07:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:46 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:07:46 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 15:07:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:47 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 15:07:47 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 15:07:47 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 15:07:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 15:07:47 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:07:48 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 15:07:48 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 15:07:48 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 15:07:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 15:07:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\004_edit staff\\20190417_144928\\1555484868440.png]]
+
+2019-04-17 15:07:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 15:07:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 15:07:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 15:07:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:52 - [TEST_STEP][PASSED] - Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0): Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:07:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 15:07:52 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 15:07:52 - [TEST_STEP][PASSED] - Statement - If (verify_user): Enter the Successfully entered the people management page
+
+2019-04-17 15:07:52 - [TEST_STEP][PASSED] - comment: Enter the Successfully entered the people management page
+
+2019-04-17 15:07:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User' successfully
+
+2019-04-17 15:07:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-17 15:07:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:07:53 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:07:53 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:07:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:07:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_first' is clicked on
+
+2019-04-17 15:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/edit_first' is clicked on
+
+2019-04-17 15:07:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 15:07:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:07:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/input__addDeptName' is clicked on
+
+2019-04-17 15:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/input__addDeptName' is clicked on
+
+2019-04-17 15:07:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:07:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:07:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/div_NB_QA' is clicked on
+
+2019-04-17 15:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/div_NB_QA' is clicked on
+
+2019-04-17 15:07:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:08:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:08:00 - [TEST_STEP][PASSED] - setText: Text '编辑姓名11' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_ realname'
+
+2019-04-17 15:08:00 - [MESSAGE][PASSED] - Text '编辑姓名11' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_ realname'
+
+2019-04-17 15:08:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:08:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:08:01 - [TEST_STEP][PASSED] - setText: Text 'tester' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_position'
+
+2019-04-17 15:08:01 - [MESSAGE][PASSED] - Text 'tester' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_position'
+
+2019-04-17 15:08:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:08:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:08:02 - [TEST_STEP][PASSED] - setText: Text '154876865365' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input__mobile'
+
+2019-04-17 15:08:02 - [MESSAGE][PASSED] - Text '154876865365' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input__mobile'
+
+2019-04-17 15:08:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:08:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:08:03 - [TEST_STEP][PASSED] - setText: Text '752658458@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_email'
+
+2019-04-17 15:08:04 - [MESSAGE][PASSED] - Text '752658458@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/input_email'
+
+2019-04-17 15:08:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:08:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:08:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/button_Saveedit' is clicked on
+
+2019-04-17 15:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/Edit_user_info/button_Saveedit' is clicked on
+
+2019-04-17 15:08:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 15:08:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:08:07 - [TEST_STEP][PASSED] - setText: Text '编辑姓名11' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:08:07 - [MESSAGE][PASSED] - Text '编辑姓名11' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 15:08:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:08:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:08:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 15:08:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 15:08:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:08:09 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '编辑姓名11'
+
+2019-04-17 15:08:09 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '编辑姓名11'
+
+2019-04-17 15:08:09 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 人员编辑修改成功
+
+2019-04-17 15:08:09 - [TEST_STEP][PASSED] - comment: 人员编辑修改成功
+
+2019-04-17 15:08:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 15:08:09 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 15:08:09 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 15:06:09 - [TEST_SUITE][PASSED] - 004_edit staff: Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

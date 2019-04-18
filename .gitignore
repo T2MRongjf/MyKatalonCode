@@ -1,0 +1,13 @@
+# Log file
+*.log
+
+# eclipse ignore
+settings/
+.project
+.classpath
+#bin/
+
+
+# system ignore
+.DS_Store
+Thumbs.db

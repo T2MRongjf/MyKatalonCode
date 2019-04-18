@@ -1,0 +1,172 @@
+1
+00:00:00,326 --> 00:00:00,327
+1. callTestCase
+
+2
+00:00:00,401 --> 00:00:00,401
+1. callTestCase
+
+3
+00:00:00,472 --> 00:00:00,473
+1. callTestCase
+
+4
+00:00:00,548 --> 00:00:00,549
+1. openBrowser
+
+5
+00:00:04,121 --> 00:00:04,121
+5. navigateToUrl
+
+6
+00:00:04,779 --> 00:00:04,780
+9. comment
+
+7
+00:00:04,781 --> 00:00:04,781
+13. Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE)
+
+8
+00:00:04,816 --> 00:00:04,817
+17. Statement - If (item == true)
+
+9
+00:00:04,818 --> 00:00:04,819
+1. comment
+
+10
+00:00:04,822 --> 00:00:04,823
+5. delay
+
+11
+00:00:05,825 --> 00:00:05,825
+9. setText
+
+12
+00:00:05,994 --> 00:00:05,995
+13. delay
+
+13
+00:00:06,996 --> 00:00:06,997
+17. setText
+
+14
+00:00:07,280 --> 00:00:07,281
+21. delay
+
+15
+00:00:08,287 --> 00:00:08,289
+25. Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)
+
+16
+00:00:08,372 --> 00:00:08,372
+29. Statement - If (R)
+
+17
+00:00:08,373 --> 00:00:08,373
+1. comment
+
+18
+00:00:08,374 --> 00:00:08,375
+33. click
+
+19
+00:00:08,600 --> 00:00:08,600
+37. Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40)
+
+20
+00:00:09,804 --> 00:00:09,804
+41. Statement - If (a)
+
+21
+00:00:09,805 --> 00:00:09,805
+1. comment
+
+22
+00:00:09,806 --> 00:00:09,807
+5. takeScreenshot
+
+23
+00:00:10,235 --> 00:00:10,235
+5. delay
+
+24
+00:00:11,237 --> 00:00:11,238
+9. click
+
+25
+00:00:11,354 --> 00:00:11,354
+13. delay
+
+26
+00:00:12,356 --> 00:00:12,356
+17. click
+
+27
+00:00:12,857 --> 00:00:12,858
+21. delay
+
+28
+00:00:13,860 --> 00:00:13,861
+25. Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0)
+
+29
+00:00:13,902 --> 00:00:13,903
+29. Statement - If (verify_user)
+
+30
+00:00:13,903 --> 00:00:13,904
+1. comment
+
+31
+00:00:13,905 --> 00:00:13,906
+5. delay
+
+32
+00:00:14,908 --> 00:00:14,909
+9. Statement - Total_First = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/total_list), "innerText")
+
+33
+00:00:14,964 --> 00:00:14,965
+13. Statement - If (Total_First)
+
+34
+00:00:14,966 --> 00:00:14,967
+1. comment
+
+35
+00:00:14,969 --> 00:00:14,970
+17. setText
+
+36
+00:00:15,181 --> 00:00:15,184
+21. delay
+
+37
+00:00:16,187 --> 00:00:16,187
+25. click
+
+38
+00:00:16,298 --> 00:00:16,299
+29. delay
+
+39
+00:00:17,301 --> 00:00:17,302
+33. Statement - Actual_First = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/total_list), "innerText")
+
+40
+00:00:49,358 --> 00:00:49,358
+1. Statement - println(testCaseContext.getTestCaseId())
+
+41
+00:00:49,359 --> 00:00:49,360
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+42
+00:00:51,463 --> 00:00:51,463
+1. Statement - println(testCaseContext.getTestCaseId())
+
+43
+00:00:51,464 --> 00:00:51,465
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

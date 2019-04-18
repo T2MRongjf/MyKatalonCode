@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>从系统设置进入人员管理</description>
+   <name>001_Enter_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39047e7e-cbda-40df-ab3e-e1a456f6ab52</testCaseGuid>
+</TestCaseEntity>

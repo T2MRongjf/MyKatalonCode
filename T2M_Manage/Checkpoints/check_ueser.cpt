@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>check_ueser</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>../../Data/T2m_data.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>uselist</sheet-name-or-separator>
+      <is-using-relative-path>true</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2019-04-03T15:07:35.172</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>account</column-name>
+      <column-name>pwd</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "错误账户1",
+      "checked": false
+    },
+    {
+      "value": "test",
+      "checked": false
+    },
+    {
+      "value": "1234567890",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "错误账户2",
+      "checked": false
+    },
+    {
+      "value": "test",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "错误账户3",
+      "checked": false
+    },
+    {
+      "value": "longnamelongname",
+      "checked": false
+    },
+    {
+      "value": "654321",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "系统管理员",
+      "checked": false
+    },
+    {
+      "value": "admin",
+      "checked": false
+    },
+    {
+      "value": "654321",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

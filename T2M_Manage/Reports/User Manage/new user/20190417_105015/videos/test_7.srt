@@ -1,0 +1,136 @@
+1
+00:00:00,001 --> 00:00:00,002
+1. callTestCase
+
+2
+00:00:00,002 --> 00:00:00,003
+5. comment
+
+3
+00:00:00,005 --> 00:00:00,006
+9. click
+
+4
+00:00:00,096 --> 00:00:00,096
+13. delay
+
+5
+00:00:01,097 --> 00:00:01,098
+17. delay
+
+6
+00:00:02,099 --> 00:00:02,099
+21. click
+
+7
+00:00:02,183 --> 00:00:02,184
+25. delay
+
+8
+00:00:03,185 --> 00:00:03,186
+29. click
+
+9
+00:00:03,325 --> 00:00:03,326
+33. delay
+
+10
+00:00:04,328 --> 00:00:04,329
+37. click
+
+11
+00:00:04,414 --> 00:00:04,416
+41. delay
+
+12
+00:00:05,418 --> 00:00:05,419
+45. setText
+
+13
+00:00:05,594 --> 00:00:05,594
+49. delay
+
+14
+00:00:06,597 --> 00:00:06,599
+53. setText
+
+15
+00:00:06,837 --> 00:00:06,838
+57. delay
+
+16
+00:00:07,842 --> 00:00:07,843
+61. setText
+
+17
+00:00:08,081 --> 00:00:08,082
+65. delay
+
+18
+00:00:09,085 --> 00:00:09,086
+69. setText
+
+19
+00:00:09,273 --> 00:00:09,274
+73. delay
+
+20
+00:00:10,277 --> 00:00:10,277
+77. click
+
+21
+00:00:10,359 --> 00:00:10,359
+81. delay
+
+22
+00:00:12,362 --> 00:00:12,363
+85. setText
+
+23
+00:00:12,497 --> 00:00:12,497
+89. delay
+
+24
+00:00:13,499 --> 00:00:13,500
+93. click
+
+25
+00:00:13,611 --> 00:00:13,612
+97. delay
+
+26
+00:00:14,613 --> 00:00:14,614
+101. Statement - Try
+
+27
+00:00:14,614 --> 00:00:14,615
+1. Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1)
+
+28
+00:00:14,618 --> 00:00:14,619
+5. Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content")
+
+29
+00:00:46,636 --> 00:00:46,636
+2. comment
+
+30
+00:00:46,644 --> 00:00:46,644
+6. Statement - assert false
+
+31
+00:00:46,728 --> 00:00:46,728
+1. Statement - println(testCaseContext.getTestCaseId())
+
+32
+00:00:46,729 --> 00:00:46,730
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+33
+00:00:48,839 --> 00:00:48,839
+1. Statement - println(testCaseContext.getTestCaseId())
+
+34
+00:00:48,840 --> 00:00:48,840
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

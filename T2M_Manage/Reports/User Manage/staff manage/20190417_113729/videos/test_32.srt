@@ -1,0 +1,40 @@
+1
+00:00:00,001 --> 00:00:00,001
+1. callTestCase
+
+2
+00:00:00,066 --> 00:00:00,067
+1. callTestCase
+
+3
+00:00:00,068 --> 00:00:00,068
+5. delay
+
+4
+00:00:01,069 --> 00:00:01,069
+9. click
+
+5
+00:00:01,163 --> 00:00:01,163
+13. delay
+
+6
+00:00:02,164 --> 00:00:02,164
+17. click
+
+7
+00:00:02,537 --> 00:00:02,537
+1. Statement - println(testCaseContext.getTestCaseId())
+
+8
+00:00:02,538 --> 00:00:02,538
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+9
+00:00:04,586 --> 00:00:04,586
+1. Statement - println(testCaseContext.getTestCaseId())
+
+10
+00:00:04,587 --> 00:00:04,588
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

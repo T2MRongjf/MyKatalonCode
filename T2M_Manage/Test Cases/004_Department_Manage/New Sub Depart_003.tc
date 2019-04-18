@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>新增子部门</description>
+   <name>New Sub Depart_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>306c7955-86c1-4afa-9288-c22c4717084a</testCaseGuid>
+   <variable>
+      <defaultValue>'子测试部门'</defaultValue>
+      <description></description>
+      <id>ad2e0030-f435-4938-b4b5-3d7ad3611483</id>
+      <masked>false</masked>
+      <name>subname</name>
+   </variable>
+</TestCaseEntity>

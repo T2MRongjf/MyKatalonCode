@@ -1,0 +1,8 @@
+23
+00:00:14,594 --> 00:00:14,594
+1. Statement - println(testCaseContext.getTestCaseId())
+
+24
+00:00:14,595 --> 00:00:14,596
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

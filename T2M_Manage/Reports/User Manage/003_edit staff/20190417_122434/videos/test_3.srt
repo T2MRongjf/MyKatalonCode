@@ -1,0 +1,152 @@
+1
+00:00:00,341 --> 00:00:00,342
+1. callTestCase
+
+2
+00:00:00,344 --> 00:00:00,345
+5. setText
+
+3
+00:00:00,535 --> 00:00:00,538
+9. delay
+
+4
+00:00:01,540 --> 00:00:01,541
+13. click
+
+5
+00:00:01,684 --> 00:00:01,685
+17. delay
+
+6
+00:00:02,704 --> 00:00:02,705
+21. Statement - i = 1
+
+7
+00:00:02,706 --> 00:00:02,707
+25. Statement - userinfo = []
+
+8
+00:00:02,709 --> 00:00:02,709
+29. Statement - For ([j = 1, j <= 5, (j++)])
+
+9
+00:00:02,710 --> 00:00:02,711
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+10
+00:00:02,748 --> 00:00:02,749
+5. verifyElementPresent
+
+11
+00:00:02,795 --> 00:00:02,795
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+12
+00:00:02,880 --> 00:00:02,881
+13. Statement - userinfo.add(data)
+
+13
+00:00:02,882 --> 00:00:02,884
+17. Statement - println(userinfo)
+
+14
+00:00:02,887 --> 00:00:02,888
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+15
+00:00:02,895 --> 00:00:02,896
+5. verifyElementPresent
+
+16
+00:00:02,937 --> 00:00:02,938
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+17
+00:00:02,993 --> 00:00:02,993
+13. Statement - userinfo.add(data)
+
+18
+00:00:02,994 --> 00:00:02,994
+17. Statement - println(userinfo)
+
+19
+00:00:02,995 --> 00:00:02,996
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+20
+00:00:03,001 --> 00:00:03,001
+5. verifyElementPresent
+
+21
+00:00:03,031 --> 00:00:03,032
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+22
+00:00:03,866 --> 00:00:03,867
+13. Statement - userinfo.add(data)
+
+23
+00:00:03,868 --> 00:00:03,869
+17. Statement - println(userinfo)
+
+24
+00:00:03,870 --> 00:00:03,871
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+25
+00:00:03,876 --> 00:00:03,876
+5. verifyElementPresent
+
+26
+00:00:04,597 --> 00:00:04,598
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+27
+00:00:04,623 --> 00:00:04,623
+13. Statement - userinfo.add(data)
+
+28
+00:00:04,624 --> 00:00:04,624
+17. Statement - println(userinfo)
+
+29
+00:00:04,625 --> 00:00:05,298
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+30
+00:00:05,308 --> 00:00:05,309
+5. verifyElementPresent
+
+31
+00:00:05,328 --> 00:00:05,328
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+32
+00:00:06,044 --> 00:00:06,045
+13. Statement - userinfo.add(data)
+
+33
+00:00:06,045 --> 00:00:06,046
+17. Statement - println(userinfo)
+
+34
+00:00:06,047 --> 00:00:06,047
+33. click
+
+35
+00:00:08,954 --> 00:00:08,955
+1. Statement - println(testCaseContext.getTestCaseId())
+
+36
+00:00:08,955 --> 00:00:08,956
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+37
+00:00:11,074 --> 00:00:11,074
+1. Statement - println(testCaseContext.getTestCaseId())
+
+38
+00:00:11,075 --> 00:00:11,075
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

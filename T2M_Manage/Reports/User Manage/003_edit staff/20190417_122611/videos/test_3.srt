@@ -1,0 +1,268 @@
+1
+00:00:00,420 --> 00:00:00,425
+1. callTestCase
+
+2
+00:00:00,427 --> 00:00:00,428
+5. setText
+
+3
+00:00:00,704 --> 00:00:00,704
+9. delay
+
+4
+00:00:01,705 --> 00:00:01,706
+13. click
+
+5
+00:00:01,886 --> 00:00:01,887
+17. delay
+
+6
+00:00:02,888 --> 00:00:02,889
+21. Statement - i = 1
+
+7
+00:00:02,889 --> 00:00:02,891
+25. Statement - userinfo = []
+
+8
+00:00:02,892 --> 00:00:02,894
+29. Statement - For ([j = 1, j <= 5, (j++)])
+
+9
+00:00:02,894 --> 00:00:02,896
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+10
+00:00:02,923 --> 00:00:02,924
+5. verifyElementPresent
+
+11
+00:00:02,968 --> 00:00:02,969
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+12
+00:00:03,018 --> 00:00:03,019
+13. Statement - userinfo.add(data)
+
+13
+00:00:03,019 --> 00:00:03,020
+17. Statement - println(userinfo)
+
+14
+00:00:03,022 --> 00:00:03,023
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+15
+00:00:03,028 --> 00:00:03,029
+5. verifyElementPresent
+
+16
+00:00:03,044 --> 00:00:03,045
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+17
+00:00:03,073 --> 00:00:03,074
+13. Statement - userinfo.add(data)
+
+18
+00:00:03,075 --> 00:00:03,075
+17. Statement - println(userinfo)
+
+19
+00:00:03,076 --> 00:00:03,077
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+20
+00:00:03,084 --> 00:00:03,085
+5. verifyElementPresent
+
+21
+00:00:03,103 --> 00:00:03,104
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+22
+00:00:03,684 --> 00:00:03,684
+13. Statement - userinfo.add(data)
+
+23
+00:00:03,685 --> 00:00:03,686
+17. Statement - println(userinfo)
+
+24
+00:00:03,687 --> 00:00:03,687
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+25
+00:00:03,692 --> 00:00:03,693
+5. verifyElementPresent
+
+26
+00:00:04,458 --> 00:00:04,459
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+27
+00:00:04,494 --> 00:00:04,495
+13. Statement - userinfo.add(data)
+
+28
+00:00:04,496 --> 00:00:04,496
+17. Statement - println(userinfo)
+
+29
+00:00:04,498 --> 00:00:05,108
+1. Statement - n_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[" + j + "]/div", true)
+
+30
+00:00:05,113 --> 00:00:05,113
+5. verifyElementPresent
+
+31
+00:00:05,132 --> 00:00:05,132
+9. Statement - data = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(n_btn, "innerText")
+
+32
+00:00:05,853 --> 00:00:05,854
+13. Statement - userinfo.add(data)
+
+33
+00:00:05,854 --> 00:00:05,855
+17. Statement - println(userinfo)
+
+34
+00:00:05,855 --> 00:00:05,856
+33. click
+
+35
+00:00:06,824 --> 00:00:06,825
+37. delay
+
+36
+00:00:16,832 --> 00:00:16,832
+41. Statement - userdetail = []
+
+37
+00:00:16,833 --> 00:00:16,834
+45. Statement - name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _realname)
+
+38
+00:00:16,861 --> 00:00:16,862
+49. Statement - position = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _position)
+
+39
+00:00:16,872 --> 00:00:16,874
+53. Statement - mobile = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _mobile)
+
+40
+00:00:16,879 --> 00:00:16,881
+57. Statement - email = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/input_  _email)
+
+41
+00:00:16,894 --> 00:00:16,895
+61. Statement - element1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(name, 30)
+
+42
+00:00:16,950 --> 00:00:16,951
+65. Statement - element2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(position, 30)
+
+43
+00:00:16,970 --> 00:00:16,970
+69. Statement - element3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(mobile, 30)
+
+44
+00:00:16,988 --> 00:00:16,990
+73. Statement - element4 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(email, 30)
+
+45
+00:00:17,015 --> 00:00:17,016
+77. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+46
+00:00:17,031 --> 00:00:17,032
+81. Statement - js = driver
+
+47
+00:00:17,065 --> 00:00:17,065
+85. Statement - value1 = js.executeScript("return arguments[0].value", element1).toString()
+
+48
+00:00:17,073 --> 00:00:17,073
+89. Statement - userdetail.add(value1)
+
+49
+00:00:17,074 --> 00:00:17,074
+93. Statement - value2 = js.executeScript("return arguments[0].value", element2).toString()
+
+50
+00:00:17,081 --> 00:00:17,082
+97. Statement - userdetail.add(value2)
+
+51
+00:00:17,082 --> 00:00:17,083
+101. Statement - value4 = js.executeScript("return arguments[0].value", element4).toString()
+
+52
+00:00:17,089 --> 00:00:17,090
+105. Statement - userdetail.add(value4)
+
+53
+00:00:17,091 --> 00:00:17,091
+109. Statement - value3 = js.executeScript("return arguments[0].value", element3).toString()
+
+54
+00:00:17,100 --> 00:00:17,101
+113. Statement - userdetail.add(value3)
+
+55
+00:00:17,102 --> 00:00:17,102
+117. Statement - duty = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Edit_user_info/i_), 30)
+
+56
+00:00:17,141 --> 00:00:17,142
+121. Statement - value5 = js.executeScript("return $("[name='state']").val()", duty).toString()
+
+57
+00:00:17,149 --> 00:00:17,149
+125. Statement - println(value5)
+
+58
+00:00:17,150 --> 00:00:17,151
+129. Statement - If (value5 == "1")
+
+59
+00:00:17,152 --> 00:00:17,152
+1. Statement - userdetail.add("在职")
+
+60
+00:00:17,153 --> 00:00:17,153
+133. Statement - println(userdetail)
+
+61
+00:00:17,155 --> 00:00:17,156
+137. Statement - If (userinfo == userdetail)
+
+62
+00:00:17,801 --> 00:00:17,801
+2. comment
+
+63
+00:00:17,803 --> 00:00:17,804
+6. Statement - TakeScreenshotKeyword("用户详情")
+
+64
+00:00:19,321 --> 00:00:19,322
+1. Statement - println(testCaseContext.getTestCaseId())
+
+65
+00:00:19,323 --> 00:00:19,324
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+66
+00:00:21,496 --> 00:00:21,496
+1. Statement - println(testCaseContext.getTestCaseId())
+
+67
+00:00:21,497 --> 00:00:21,497
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>新增顶级部门</description>
+   <name>New_TopDepart_002</name>
+   <tag></tag>
+   <comment>text</comment>
+   <testCaseGuid>c2baabf9-f179-49e1-a8ff-1433fe7ffd44</testCaseGuid>
+   <variable>
+      <defaultValue>'新增顶级部门名称'</defaultValue>
+      <description></description>
+      <id>f7704cbb-301d-4512-a4cd-4aae91282bea</id>
+      <masked>false</masked>
+      <name>topname</name>
+   </variable>
+</TestCaseEntity>

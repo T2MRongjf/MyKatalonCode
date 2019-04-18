@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>填写固定资产信息</description>
+   <name>Add_basicinfo_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d0eae76-637d-43ed-bdd9-c1238fa22114</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6251ae8-a10a-481e-9d5d-61e82dd52ad4</id>
+      <masked>false</masked>
+      <name>aassetName</name>
+   </variable>
+</TestCaseEntity>

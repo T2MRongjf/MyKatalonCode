@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>点击保存，验证是否保存成功</description>
+   <name>Save_Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>937612d0-a144-413d-80a4-eadf5fb2a803</testCaseGuid>
+</TestCaseEntity>

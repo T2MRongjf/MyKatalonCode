@@ -1,0 +1,200 @@
+1
+00:00:00,177 --> 00:00:00,177
+1. callTestCase
+
+2
+00:00:00,235 --> 00:00:00,235
+1. callTestCase
+
+3
+00:00:00,236 --> 00:00:00,236
+5. delay
+
+4
+00:00:01,237 --> 00:00:01,237
+9. click
+
+5
+00:00:01,319 --> 00:00:01,319
+13. delay
+
+6
+00:00:02,320 --> 00:00:02,320
+17. click
+
+7
+00:00:02,622 --> 00:00:02,622
+21. delay
+
+8
+00:00:03,623 --> 00:00:03,624
+25. Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0)
+
+9
+00:00:03,652 --> 00:00:03,652
+29. Statement - If (verify_user)
+
+10
+00:00:03,653 --> 00:00:03,653
+1. comment
+
+11
+00:00:03,654 --> 00:00:03,654
+5. delay
+
+12
+00:00:04,655 --> 00:00:04,656
+9. Statement - value = ["10", "20", "30", "40", "50", "60", "70", "80", "90"]
+
+13
+00:00:04,656 --> 00:00:04,657
+13. Statement - For (def b : value)
+
+14
+00:00:04,658 --> 00:00:04,658
+1. Statement - Total_First = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/total_list_page), "innerText")
+
+15
+00:00:04,691 --> 00:00:04,691
+5. comment
+
+16
+00:00:04,692 --> 00:00:04,693
+9. Statement - a = Total_First[(2..3)]
+
+17
+00:00:04,694 --> 00:00:04,694
+13. Statement - total = java.lang.Integer.parseInt(a)
+
+18
+00:00:04,694 --> 00:00:04,695
+17. selectOptionByValue
+
+19
+00:00:04,837 --> 00:00:04,838
+21. Statement - num = java.lang.Integer.parseInt(b)
+
+20
+00:00:04,838 --> 00:00:04,838
+25. Statement - c = total / num
+
+21
+00:00:04,850 --> 00:00:04,851
+29. Statement - d = total % num
+
+22
+00:00:04,871 --> 00:00:04,872
+33. Statement - println(a)
+
+23
+00:00:04,874 --> 00:00:04,874
+37. Statement - println(c)
+
+24
+00:00:04,875 --> 00:00:04,875
+41. Statement - println(num)
+
+25
+00:00:04,876 --> 00:00:04,876
+45. Statement - println(d)
+
+26
+00:00:04,877 --> 00:00:04,877
+49. Statement - If (c <= 1)
+
+27
+00:00:04,878 --> 00:00:04,878
+2. Statement - For ([i = 1, i <= c, (i++)])
+
+28
+00:00:04,878 --> 00:00:04,878
+1. click
+
+29
+00:00:04,963 --> 00:00:04,963
+5. delay
+
+30
+00:00:05,966 --> 00:00:05,966
+1. click
+
+31
+00:00:06,046 --> 00:00:06,046
+5. delay
+
+32
+00:00:07,047 --> 00:00:07,047
+1. click
+
+33
+00:00:07,126 --> 00:00:07,126
+5. delay
+
+34
+00:00:08,127 --> 00:00:08,127
+1. click
+
+35
+00:00:08,202 --> 00:00:08,202
+5. delay
+
+36
+00:00:09,203 --> 00:00:09,203
+1. click
+
+37
+00:00:09,302 --> 00:00:09,302
+5. delay
+
+38
+00:00:10,303 --> 00:00:10,303
+1. click
+
+39
+00:00:10,374 --> 00:00:10,374
+5. delay
+
+40
+00:00:11,377 --> 00:00:11,378
+6. verifyElementPresent
+
+41
+00:00:11,399 --> 00:00:11,400
+10. Statement - rows = CustomKeywords.custom_keyword.WebUICustomKeywords.getHtmlTableRows(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/table), "tbody")
+
+42
+00:00:11,431 --> 00:00:11,431
+14. Statement - leave = rows.size()
+
+43
+00:00:11,432 --> 00:00:11,432
+18. Statement - If (leave == d)
+
+44
+00:00:11,434 --> 00:00:11,434
+2. comment
+
+45
+00:00:11,435 --> 00:00:11,435
+6. takeScreenshot
+
+46
+00:00:11,663 --> 00:00:11,663
+10. Statement - assert false
+
+47
+00:00:11,666 --> 00:00:11,667
+1. Statement - println(testCaseContext.getTestCaseId())
+
+48
+00:00:11,667 --> 00:00:11,667
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+49
+00:00:13,781 --> 00:00:13,781
+1. Statement - println(testCaseContext.getTestCaseId())
+
+50
+00:00:13,782 --> 00:00:13,783
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>取消删除</description>
+   <name>013_cancel_delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>640c0eb4-eae5-4bde-94e1-9ee3d80da3d8</testCaseGuid>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>78541010-6981-4742-b5f3-261bb979e69b</id>
+      <masked>false</masked>
+      <name>usersearch</name>
+   </variable>
+</TestCaseEntity>

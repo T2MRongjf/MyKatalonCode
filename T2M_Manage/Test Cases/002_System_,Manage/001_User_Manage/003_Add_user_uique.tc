@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>验证当必填项为空的时候，应该对应弹出提示；
+验证邮箱格式不对的时候，演出对应提示；验证号码只能支持数字输入，其他字符无法输入；</description>
+   <name>003_Add_user_uique</name>
+   <tag></tag>
+   <comment>begain to add one new user!</comment>
+   <testCaseGuid>a8bfaa3e-d747-44b2-977a-be89bcb85000</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cb3ab69-6153-49f6-bdcb-7f0ce3b564bd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a7c972f-ad62-4547-933f-6f92a03c46f7</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>428dbcc8-61a1-4912-81a0-e78cc20e8ca9</id>
+      <masked>false</masked>
+      <name>mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>813e0e56-f7d2-4de9-ad2c-d3fb51ce95c6</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'2542434'</defaultValue>
+      <description></description>
+      <id>2b46908b-9966-4342-806c-234b38d8f402</id>
+      <masked>false</masked>
+      <name>u_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'242354235'</defaultValue>
+      <description></description>
+      <id>0396f799-16f4-4313-890b-0874bfcbc277</id>
+      <masked>false</masked>
+      <name>p_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'1245645684686'</defaultValue>
+      <description></description>
+      <id>25052651-7d4a-4b99-8c4d-3a94e80ef6c1</id>
+      <masked>false</masked>
+      <name>m_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'gkodskgpodskgpodskrfgp['</defaultValue>
+      <description></description>
+      <id>0f3ecc7c-6491-4423-b41e-ce8dadf89eb7</id>
+      <masked>false</masked>
+      <name>e_email</name>
+   </variable>
+</TestCaseEntity>

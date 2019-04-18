@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Home" time="105" tests="7" failures="0" errors="0">
+   <testsuite name="Login_Home" tests="7" failures="0" errors="0" time="105" timestamp="2019-04-17 14:49:31" hostname="Administrator - BF-20170623WSST" id="Test Suites/Login/Login_Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928"/>
+         <property name="logFiles" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\execution0.log"/>
+         <property name="attachments" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483830425.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483845641.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483858143.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483861001.png, G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483872404.png"/>
+         <property name="hostName" value="Administrator - BF-20170623WSST"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.75"/>
+         <property name="hostAddress" value="192.168.10.86"/>
+         <property name="sessionId" value="4b77f6cc07ee8677a4f371d979381de8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/001_Login_Home/001_Navigate" classname="Test Cases/001_Login_Home/001_Navigate" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:49:37 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:49:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:49:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:49:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:49:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:49:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 14:49:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:49:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:49:43 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:49:43 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:49:43 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:49:43 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:49:43 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:49:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 14:49:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:49:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Login_Home/001_Login" classname="Test Cases/001_Login_Home/001_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:49:45 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Login: Test Cases/001_Login_Home/001_Login
+
+2019-04-17 14:49:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:49:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:49:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:49:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:49:45 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:49:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:49:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 14:49:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:49:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:49:49 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:49:49 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:49:49 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:49:50 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:49:50 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:49:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:49:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:49:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:49:51 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:49:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:49:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:49:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:49:52 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:49:52 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:49:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:49:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:49:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:49:53 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE): Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:49:53 - [TEST_STEP][PASSED] - Statement - If (a): find this item,pwd or name not correct
+
+2019-04-17 14:49:53 - [TEST_STEP][PASSED] - comment: find this item,pwd or name not correct
+
+2019-04-17 14:49:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-04-17 14:49:54 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-17 14:49:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 14:49:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:49:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Login_Home/001_Login" classname="Test Cases/001_Login_Home/001_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:49:56 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Login: Test Cases/001_Login_Home/001_Login
+
+2019-04-17 14:49:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:49:56 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:49:56 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:49:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:49:56 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:49:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:50:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:50:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:01 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:01 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:50:01 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:01 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:50:01 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:50:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:02 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:02 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:03 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:05 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE): Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:50:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:50:05 - [TEST_STEP][PASSED] - Statement - If (a): find this item,pwd or name not correct
+
+2019-04-17 14:50:05 - [TEST_STEP][PASSED] - comment: find this item,pwd or name not correct
+
+2019-04-17 14:50:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-04-17 14:50:06 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-17 14:50:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 14:50:06 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:06 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Login_Home/001_Login" classname="Test Cases/001_Login_Home/001_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:50:08 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Login: Test Cases/001_Login_Home/001_Login
+
+2019-04-17 14:50:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:08 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:50:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:50:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:50:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:13 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:13 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:50:13 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:13 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:50:13 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:50:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:14 - [TEST_STEP][PASSED] - setText: Text 'longnamelongname' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:14 - [MESSAGE][PASSED] - Text 'longnamelongname' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:15 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:16 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:17 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE): Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:50:17 - [TEST_STEP][PASSED] - Statement - If (a): find this item,pwd or name not correct
+
+2019-04-17 14:50:17 - [TEST_STEP][PASSED] - comment: find this item,pwd or name not correct
+
+2019-04-17 14:50:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-04-17 14:50:18 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-17 14:50:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 14:50:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Login_Home/002_Login" classname="Test Cases/001_Login_Home/002_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:50:20 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 14:50:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:20 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:50:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:50:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:50:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:24 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:24 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:50:24 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:24 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:50:24 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:50:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:25 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:27 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:27 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:28 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:50:28 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 14:50:28 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 14:50:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:28 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:50:30 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 14:50:30 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 14:50:30 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 14:50:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483830425.png]]
+
+2019-04-17 14:50:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 14:50:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Login_Home/003_Login" classname="Test Cases/001_Login_Home/003_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:50:33 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/003_Login: Test Cases/001_Login_Home/003_Login
+
+2019-04-17 14:50:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:33 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:34 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:50:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:50:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 14:50:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:50:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:39 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:39 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:50:39 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:39 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:50:39 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:50:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:40 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:40 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:41 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:42 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/remember_password' is clicked on
+
+2019-04-17 14:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/remember_password' is clicked on
+
+2019-04-17 14:50:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:44 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is not checked
+
+2019-04-17 14:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is not checked
+
+2019-04-17 14:50:44 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box no checked
+
+2019-04-17 14:50:44 - [TEST_STEP][PASSED] - comment: The remember pwd box no checked
+
+2019-04-17 14:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:44 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:50:45 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 14:50:45 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 14:50:45 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 14:50:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483845641.png]]
+
+2019-04-17 14:50:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 14:50:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Login_Home/004_Forget_Login" classname="Test Cases/001_Login_Home/004_Forget_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:50:48 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/004_Forget_Login: Test Cases/001_Login_Home/004_Forget_Login
+
+2019-04-17 14:50:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:50:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 14:50:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 14:50:49 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 14:50:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:49 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:50:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:50:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 14:50:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:50:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:53 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:50:53 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:50:53 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:50:53 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:50:53 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:50:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:50:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:54 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:54 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:50:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:55 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:56 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:50:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:50:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:50:57 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:50:57 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 14:50:57 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 14:50:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:50:57 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:50:58 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 14:50:58 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 14:50:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 14:50:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483858143.png]]
+
+2019-04-17 14:50:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/002_Login' successfully
+
+2019-04-17 14:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/a_Loginout' is clicked on
+
+2019-04-17 14:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Loginout' is clicked on
+
+2019-04-17 14:50:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:51:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:51:00 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 3): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:51:00 - [TEST_STEP][PASSED] - Statement - If (R): check the remember pwd box!
+
+2019-04-17 14:51:00 - [TEST_STEP][PASSED] - comment: check the remember pwd box!
+
+2019-04-17 14:51:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:51:00 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40, CONTINUE_ON_FAILURE): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:51:00 - [TEST_STEP][PASSED] - Statement - If (a): null
+
+2019-04-17 14:51:00 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful，the pwd not clear
+
+2019-04-17 14:51:01 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 14:51:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483861001.png]]
+
+2019-04-17 14:51:01 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-04-17 14:51:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/003_Login' successfully
+
+2019-04-17 14:51:01 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/003_Login: Test Cases/001_Login_Home/003_Login
+
+2019-04-17 14:51:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:51:01 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 14:51:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 14:51:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 14:51:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:51:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:51:05 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 14:51:05 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 14:51:05 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 14:51:06 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 14:51:06 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 14:51:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 14:51:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:51:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:51:07 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:51:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 14:51:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:51:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:51:08 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:51:08 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 14:51:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:51:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:51:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/remember_password' is clicked on
+
+2019-04-17 14:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/remember_password' is clicked on
+
+2019-04-17 14:51:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:51:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:51:11 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is not checked
+
+2019-04-17 14:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is not checked
+
+2019-04-17 14:51:11 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box no checked
+
+2019-04-17 14:51:11 - [TEST_STEP][PASSED] - comment: The remember pwd box no checked
+
+2019-04-17 14:51:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:51:12 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:51:12 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 14:51:12 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 14:51:12 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 14:51:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 14:51:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\Login\\Login_Home\\20190417_144928\\1555483872404.png]]
+
+2019-04-17 14:51:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/003_Login' successfully
+
+2019-04-17 14:51:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/a_Loginout' is clicked on
+
+2019-04-17 14:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Loginout' is clicked on
+
+2019-04-17 14:51:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 14:51:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Statement - If (R): check the remember pwd box!
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - comment: check the remember pwd box!
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE): Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/label_incorrect' is present
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Statement - If (a): null
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - comment: The account and pwd have cleared
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 14:51:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 14:49:31 - [TEST_SUITE][PASSED] - Login_Home: Test Cases/001_Login_Home/004_Forget_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

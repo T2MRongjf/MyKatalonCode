@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+002_search,Chrome 73.0.3683.75,\u9A8C\u8BC1\u7F16\u8F91\u7528\u6237\u6210\u529F,2019-04-17 14:22:12,2019-04-17 14:26:43,4m - 31.276s,FAILED
+,,,,,,
+Test Cases/001_Login_Home/002_Login,Chrome 73.0.3683.75,登录（记住密码）,2019-04-17 14:22:13,2019-04-17 14:22:28,15.407s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:13,2019-04-17 14:22:13,0.011s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:13,2019-04-17 14:22:21,7.584s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:21,2019-04-17 14:22:22,1.015s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 14:22:22,2019-04-17 14:22:22,0.199s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:22,2019-04-17 14:22:23,1.004s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 14:22:23,2019-04-17 14:22:23,0.226s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:23,2019-04-17 14:22:24,1.004s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)",Chrome 73.0.3683.75,,2019-04-17 14:22:24,2019-04-17 14:22:24,0.060s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-17 14:22:24,2019-04-17 14:22:24,0.017s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:22:24,2019-04-17 14:22:24,0.113s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40)",Chrome 73.0.3683.75,,2019-04-17 14:22:24,2019-04-17 14:22:26,1.212s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-17 14:22:26,2019-04-17 14:22:26,0.298s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:26,2019-04-17 14:22:26,0.011s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User",Chrome 73.0.3683.75,从系统设置进入人员管理,2019-04-17 14:22:28,2019-04-17 14:22:42,13.894s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:28,2019-04-17 14:22:28,0.003s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:28,2019-04-17 14:22:36,8.169s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:36,2019-04-17 14:22:37,1.005s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:22:37,2019-04-17 14:22:37,0.108s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:37,2019-04-17 14:22:38,1.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:22:38,2019-04-17 14:22:39,0.318s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:39,2019-04-17 14:22:40,1.002s,PASSED
+"Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0)",Chrome 73.0.3683.75,,2019-04-17 14:22:40,2019-04-17 14:22:40,0.034s,PASSED
+Statement - If (verify_user),Chrome 73.0.3683.75,,2019-04-17 14:22:40,2019-04-17 14:22:40,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:40,2019-04-17 14:22:40,0.004s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/004_Searchbox",Chrome 73.0.3683.75,"1.搜索框不输入任何关键词，验证列表中显示所有用户；
+2.搜索结果不匹配，，显示无数据
+3.搜索结果存在，验证搜索结果条数与列表中的条数是否一致。",2019-04-17 14:22:42,2019-04-17 14:23:31,49.248s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:42,2019-04-17 14:22:42,0.005s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:22:42,2019-04-17 14:22:54,11.958s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:54,2019-04-17 14:22:55,1.003s,PASSED
+"Statement - Total_First = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/total_list), ""innerText"")",Chrome 73.0.3683.75,,2019-04-17 14:22:55,2019-04-17 14:22:55,0.064s,PASSED
+Statement - If (Total_First),Chrome 73.0.3683.75,,2019-04-17 14:22:55,2019-04-17 14:22:55,0.004s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 14:22:55,2019-04-17 14:22:55,0.143s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:55,2019-04-17 14:22:56,1.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:22:56,2019-04-17 14:22:57,0.107s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:22:57,2019-04-17 14:22:58,1.002s,PASSED
+"Statement - Actual_First = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/total_list), ""innerText"")",Chrome 73.0.3683.75,,2019-04-17 14:22:58,2019-04-17 14:23:29,31.452s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:23:29,2019-04-17 14:23:29,0.005s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/005_Verify_search_Result",Chrome 73.0.3683.75,"1.验证关键词与姓名一列中的结果是否匹配，是否支持模糊搜索；
+2.验证支持姓名模糊搜索，还是整个列表中的所有数据模糊匹配。",2019-04-17 14:23:31,2019-04-17 14:24:21,49.656s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:23:31,2019-04-17 14:23:31,0.003s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:23:31,2019-04-17 14:23:43,11.825s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:23:43,2019-04-17 14:23:44,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 14:23:44,2019-04-17 14:23:44,0.106s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:23:44,2019-04-17 14:23:45,1.002s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:23:45,2019-04-17 14:23:45,0.115s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:23:45,2019-04-17 14:23:46,1.002s,PASSED
+comment,Chrome 73.0.3683.75,,2019-04-17 14:23:46,2019-04-17 14:23:46,0.002s,PASSED
+verifyElementPresent,Chrome 73.0.3683.75,,2019-04-17 14:23:46,2019-04-17 14:23:46,0.034s,PASSED
+Statement - table = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/table),Chrome 73.0.3683.75,,2019-04-17 14:23:46,2019-04-17 14:23:46,0.005s,PASSED
+Statement - println(table),Chrome 73.0.3683.75,,2019-04-17 14:23:46,2019-04-17 14:23:46,0.004s,PASSED
+"Statement - TableRows = CustomKeywords.custom_keyword.WebUICustomKeywords.getHtmlTableRows(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/table), ""tbody"")",Chrome 73.0.3683.75,,2019-04-17 14:23:46,2019-04-17 14:23:47,0.091s,PASSED
+Statement - TableRows_All = TableRows.size(),Chrome 73.0.3683.75,,2019-04-17 14:23:47,2019-04-17 14:23:47,0.001s,PASSED
+Statement - println(TableRows_All),Chrome 73.0.3683.75,,2019-04-17 14:23:47,2019-04-17 14:23:47,0.001s,PASSED
+"Statement - For ([i = 1, i <= TableRows_All, (i++)])",Chrome 73.0.3683.75,,2019-04-17 14:23:47,2019-04-17 14:23:50,3.507s,PASSED
+"Statement - For ([i = 1, i <= TableRows_All, (i++)])",Chrome 73.0.3683.75,,2019-04-17 14:23:50,2019-04-17 14:24:18,27.789s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:24:18,2019-04-17 14:24:19,0.784s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/006_paging_verify",Chrome 73.0.3683.75,1.验证分页功能是否正常,2019-04-17 14:24:21,2019-04-17 14:24:43,22.211s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:24:21,2019-04-17 14:24:21,0.002s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:24:21,2019-04-17 14:24:33,11.604s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:24:33,2019-04-17 14:24:34,1.001s,PASSED
+"Statement - value = [""10"", ""20"", ""30"", ""40"", ""50"", ""60"", ""70"", ""80"", ""90""]",Chrome 73.0.3683.75,,2019-04-17 14:24:34,2019-04-17 14:24:34,0.001s,PASSED
+Statement - For (def b : value),Chrome 73.0.3683.75,,2019-04-17 14:24:34,2019-04-17 14:24:41,7.348s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:24:41,2019-04-17 14:24:41,0.002s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/007_page_default",Chrome 73.0.3683.75,验证分页的设置是否为恢复默认,2019-04-17 14:24:43,2019-04-17 14:26:43,2m - 0.262s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:24:43,2019-04-17 14:24:43,0.003s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:24:43,2019-04-17 14:24:56,12.665s,PASSED
+verifyOptionSelectedByValue,Chrome 73.0.3683.75,,2019-04-17 14:24:56,2019-04-17 14:24:57,0.900s,PASSED
+"Statement - value = [""10"", ""20"", ""30"", ""40"", ""50""]",Chrome 73.0.3683.75,,2019-04-17 14:24:57,2019-04-17 14:24:57,0.001s,PASSED
+Statement - For (def b : value),Chrome 73.0.3683.75,,2019-04-17 14:24:57,2019-04-17 14:26:41,1m - 44.378s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:26:41,2019-04-17 14:26:41,0.004s,PASSED

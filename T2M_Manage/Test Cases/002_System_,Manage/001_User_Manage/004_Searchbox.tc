@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1.搜索框不输入任何关键词，验证列表中显示所有用户；
+2.搜索结果不匹配，，显示无数据
+3.搜索结果存在，验证搜索结果条数与列表中的条数是否一致。</description>
+   <name>004_Searchbox</name>
+   <tag></tag>
+   <comment>data</comment>
+   <testCaseGuid>d49ca5fa-a0fd-4ff8-9509-2233acbca926</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>522ac488-33e6-4865-9193-96a9b914ad4f</id>
+      <masked>false</masked>
+      <name>username_empty</name>
+   </variable>
+   <variable>
+      <defaultValue>'ertyuiopfghjjkopjiopo'</defaultValue>
+      <description></description>
+      <id>31aa672b-376f-4f8b-a2a4-eae327faac87</id>
+      <masked>false</masked>
+      <name>username_Noteaxst</name>
+   </variable>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>aa72e40c-a748-4cf1-aa84-9a5841e0ebaf</id>
+      <masked>false</masked>
+      <name>username_Normal</name>
+   </variable>
+</TestCaseEntity>

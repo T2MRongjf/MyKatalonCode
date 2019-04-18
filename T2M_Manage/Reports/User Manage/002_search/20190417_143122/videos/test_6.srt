@@ -1,0 +1,252 @@
+1
+00:00:00,153 --> 00:00:00,154
+1. callTestCase
+
+2
+00:00:00,214 --> 00:00:00,214
+1. callTestCase
+
+3
+00:00:00,276 --> 00:00:00,276
+1. callTestCase
+
+4
+00:00:00,342 --> 00:00:00,342
+1. openBrowser
+
+5
+00:00:03,244 --> 00:00:03,245
+5. navigateToUrl
+
+6
+00:00:03,812 --> 00:00:03,813
+9. comment
+
+7
+00:00:03,814 --> 00:00:03,814
+13. Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE)
+
+8
+00:00:03,843 --> 00:00:03,844
+17. Statement - If (item == true)
+
+9
+00:00:03,844 --> 00:00:03,845
+1. comment
+
+10
+00:00:03,846 --> 00:00:03,847
+5. delay
+
+11
+00:00:04,848 --> 00:00:04,848
+9. setText
+
+12
+00:00:04,977 --> 00:00:04,977
+13. delay
+
+13
+00:00:05,978 --> 00:00:05,979
+17. setText
+
+14
+00:00:06,139 --> 00:00:06,139
+21. delay
+
+15
+00:00:07,140 --> 00:00:07,141
+25. Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)
+
+16
+00:00:07,222 --> 00:00:07,222
+29. Statement - If (R)
+
+17
+00:00:07,223 --> 00:00:07,223
+1. comment
+
+18
+00:00:07,224 --> 00:00:07,225
+33. click
+
+19
+00:00:07,343 --> 00:00:07,344
+37. Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40)
+
+20
+00:00:07,871 --> 00:00:07,871
+41. Statement - If (a)
+
+21
+00:00:07,871 --> 00:00:07,872
+1. comment
+
+22
+00:00:07,874 --> 00:00:07,874
+5. takeScreenshot
+
+23
+00:00:08,290 --> 00:00:08,291
+5. delay
+
+24
+00:00:09,292 --> 00:00:09,293
+9. click
+
+25
+00:00:09,415 --> 00:00:09,416
+13. delay
+
+26
+00:00:10,418 --> 00:00:10,418
+17. click
+
+27
+00:00:10,699 --> 00:00:10,699
+21. delay
+
+28
+00:00:11,702 --> 00:00:11,703
+25. Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0)
+
+29
+00:00:11,732 --> 00:00:11,732
+29. Statement - If (verify_user)
+
+30
+00:00:11,733 --> 00:00:11,733
+1. comment
+
+31
+00:00:11,735 --> 00:00:11,736
+5. verifyOptionSelectedByValue
+
+32
+00:00:12,243 --> 00:00:12,244
+9. Statement - value = ["10", "20", "30", "40", "50"]
+
+33
+00:00:12,244 --> 00:00:12,245
+13. Statement - For (def b : value)
+
+34
+00:00:12,246 --> 00:00:12,246
+1. delay
+
+35
+00:00:16,248 --> 00:00:16,248
+5. selectOptionByValue
+
+36
+00:00:16,334 --> 00:00:16,334
+9. verifyOptionSelectedByValue
+
+37
+00:00:16,875 --> 00:00:16,875
+13. click
+
+38
+00:00:17,234 --> 00:00:17,234
+17. delay
+
+39
+00:00:22,237 --> 00:00:22,238
+21. click
+
+40
+00:00:22,336 --> 00:00:22,337
+25. delay
+
+41
+00:00:27,339 --> 00:00:27,339
+29. click
+
+42
+00:00:27,759 --> 00:00:27,759
+33. delay
+
+43
+00:00:32,760 --> 00:00:32,760
+37. Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByValue(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/select_page), "10", false, 10)
+
+44
+00:00:33,112 --> 00:00:33,113
+41. Statement - If (a)
+
+45
+00:00:33,113 --> 00:00:33,114
+1. comment
+
+46
+00:00:33,114 --> 00:00:33,115
+1. delay
+
+47
+00:00:37,116 --> 00:00:37,117
+5. selectOptionByValue
+
+48
+00:00:37,262 --> 00:00:37,262
+9. verifyOptionSelectedByValue
+
+49
+00:00:37,803 --> 00:00:37,803
+13. click
+
+50
+00:00:38,240 --> 00:00:38,241
+17. delay
+
+51
+00:00:43,246 --> 00:00:43,246
+21. click
+
+52
+00:00:43,352 --> 00:00:43,353
+25. delay
+
+53
+00:00:48,355 --> 00:00:48,356
+29. click
+
+54
+00:00:48,733 --> 00:00:48,733
+33. delay
+
+55
+00:00:53,734 --> 00:00:53,735
+37. Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByValue(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/select_page), "10", false, 10)
+
+56
+00:00:54,106 --> 00:00:54,106
+41. Statement - If (a)
+
+57
+00:00:54,107 --> 00:00:54,108
+1. comment
+
+58
+00:00:54,109 --> 00:00:54,109
+1. delay
+
+59
+00:00:58,111 --> 00:00:58,112
+5. selectOptionByValue
+
+60
+00:00:58,239 --> 00:00:58,240
+9. verifyOptionSelectedByValue
+
+61
+00:00:58,619 --> 00:00:58,620
+1. Statement - println(testCaseContext.getTestCaseId())
+
+62
+00:00:58,620 --> 00:00:58,621
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+63
+00:01:00,650 --> 00:01:00,651
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

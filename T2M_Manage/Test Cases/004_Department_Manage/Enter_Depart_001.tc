@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>进入部门管理页面</description>
+   <name>Enter_Depart_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea8376b0-0d75-4c3c-a94c-141d942fbaf9</testCaseGuid>
+</TestCaseEntity>

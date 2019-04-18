@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test</description>
+   <name>InputKeyword_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f14fbce-8cb3-445b-b26b-9818fbe564c1</testCaseGuid>
+   <variable>
+      <defaultValue>'电脑测试'</defaultValue>
+      <description></description>
+      <id>42b704fe-9d0c-4bed-a2a5-fe32d17f4410</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>

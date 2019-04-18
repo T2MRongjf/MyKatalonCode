@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="new user" time="302" tests="17" failures="0" errors="0">
+   <testsuite name="new user" tests="17" failures="0" errors="0" time="302" timestamp="2019-04-17 11:04:20" hostname="Administrator - BF-20170623WSST" id="Test Suites/User Manage/new user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\new user\\20190417_110418"/>
+         <property name="logFiles" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\new user\\20190417_110418\\execution0.log"/>
+         <property name="attachments" value="G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\new user\\20190417_110418\\1555470272507.png"/>
+         <property name="hostName" value="Administrator - BF-20170623WSST"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.75"/>
+         <property name="hostAddress" value="192.168.10.86"/>
+         <property name="sessionId" value="0e094421b97f4191151e67ca541a5a20"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/001_Login_Home/002_Login" classname="Test Cases/001_Login_Home/002_Login" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:04:20 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/002_Login: Test Cases/001_Login_Home/002_Login
+
+2019-04-17 11:04:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:04:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 11:04:21 - [TEST_CASE][PASSED] - Test Cases/001_Login_Home/001_Navigate: Test Cases/001_Login_Home/001_Navigate
+
+2019-04-17 11:04:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-17 11:04:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 11:04:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 11:04:27 - [MESSAGE][PASSED] - Navigate to 'http://222.180.200.126:9909/PORTALASSETS/login' successfully
+
+2019-04-17 11:04:27 - [TEST_STEP][PASSED] - comment: begin to input one correct account
+
+2019-04-17 11:04:27 - [TEST_STEP][PASSED] - Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE): Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 11:04:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_ login' is present
+
+2019-04-17 11:04:27 - [TEST_STEP][PASSED] - Statement - If (item == true): Enter this website successful!!
+
+2019-04-17 11:04:27 - [TEST_STEP][PASSED] - comment: Enter this website successful!!
+
+2019-04-17 11:04:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_Login_Home/001_Navigate' successfully
+
+2019-04-17 11:04:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:28 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 11:04:29 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/loginname'
+
+2019-04-17 11:04:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:30 - [TEST_STEP][PASSED] - setText: Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 11:04:30 - [MESSAGE][PASSED] - Text '654321' is set on object 'Object Repository/Login/password'
+
+2019-04-17 11:04:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:31 - [TEST_STEP][PASSED] - Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10): Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 11:04:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login/remember_password' is checked
+
+2019-04-17 11:04:31 - [TEST_STEP][PASSED] - Statement - If (R): The remember pwd box is checked!
+
+2019-04-17 11:04:31 - [TEST_STEP][PASSED] - comment: The remember pwd box is checked!
+
+2019-04-17 11:04:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 11:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_ login' is clicked on
+
+2019-04-17 11:04:31 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40): Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 11:04:32 - [MESSAGE][PASSED] - Object 'Object Repository/homepage/a_homepage' is present
+
+2019-04-17 11:04:32 - [TEST_STEP][PASSED] - Statement - If (a): Taking screenshot successfully
+
+2019-04-17 11:04:32 - [TEST_STEP][PASSED] - comment: Find the homepag lable,Login successful
+
+2019-04-17 11:04:32 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-04-17 11:04:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|G:\\Auto_Learning\\katalon\\katalon_project\\katalon_project\\T2M_Manage\\T2M_Manage\\Reports\\User Manage\\new user\\20190417_110418\\1555470272507.png]]
+
+2019-04-17 11:04:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:04:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:04:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User" classname="Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:04:34 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User: Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User
+
+2019-04-17 11:04:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:04:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:35 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:04:35 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:04:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 11:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_systemsetings' is clicked on
+
+2019-04-17 11:04:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_user_manage' is clicked on
+
+2019-04-17 11:04:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:38 - [TEST_STEP][PASSED] - Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0): Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 11:04:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 11:04:38 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/cite_usertable' is present
+
+2019-04-17 11:04:38 - [TEST_STEP][PASSED] - Statement - If (verify_user): Enter the Successfully entered the people management page
+
+2019-04-17 11:04:38 - [TEST_STEP][PASSED] - comment: Enter the Successfully entered the people management page
+
+2019-04-17 11:04:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:04:38 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:04:38 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:04:40 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:04:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:04:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:40 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:04:40 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:04:40 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:04:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:04:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:04:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:04:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:04:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:46 - [TEST_STEP][PASSED] - setText: Text '测试人员001' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:04:46 - [MESSAGE][PASSED] - Text '测试人员001' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:04:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:47 - [TEST_STEP][PASSED] - setText: Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:04:47 - [MESSAGE][PASSED] - Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:04:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:48 - [TEST_STEP][PASSED] - setText: Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:04:49 - [MESSAGE][PASSED] - Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:04:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:50 - [TEST_STEP][PASSED] - setText: Text '7425362@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:04:50 - [MESSAGE][PASSED] - Text '7425362@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:04:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:04:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:04:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:04:53 - [TEST_STEP][PASSED] - setText: Text '测试人员001' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:04:53 - [MESSAGE][PASSED] - Text '测试人员001' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:04:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:04:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员001'
+
+2019-04-17 11:04:55 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员001'
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - comment: 测试人员001
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:04:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:04:57 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:04:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:57 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:04:57 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:04:57 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:04:57 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:04:57 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:04:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:04:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:04:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:04:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:03 - [TEST_STEP][PASSED] - setText: Text '测试人员002' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:03 - [MESSAGE][PASSED] - Text '测试人员002' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:04 - [TEST_STEP][PASSED] - setText: Text '测试岗位9' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:04 - [MESSAGE][PASSED] - Text '测试岗位9' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:05 - [TEST_STEP][PASSED] - setText: Text '15263625418' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:05 - [MESSAGE][PASSED] - Text '15263625418' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:06 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:05:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:05:09 - [TEST_STEP][PASSED] - setText: Text '测试人员002' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:05:10 - [MESSAGE][PASSED] - Text '测试人员002' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:05:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:05:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员002'
+
+2019-04-17 11:05:12 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员002'
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - comment: 测试人员002
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:05:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:05:14 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:05:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:05:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:05:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:05:14 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:05:14 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:05:14 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:05:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:05:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:19 - [TEST_STEP][PASSED] - setText: Text 'test003' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:19 - [MESSAGE][PASSED] - Text 'test003' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:20 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:21 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:22 - [TEST_STEP][PASSED] - setText: Text '15263625411' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:22 - [MESSAGE][PASSED] - Text '15263625411' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:23 - [TEST_STEP][PASSED] - setText: Text '7425363@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:23 - [MESSAGE][PASSED] - Text '7425363@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:05:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:05:26 - [TEST_STEP][PASSED] - setText: Text 'test003' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:05:27 - [MESSAGE][PASSED] - Text 'test003' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:05:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:05:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: 'test003'
+
+2019-04-17 11:05:29 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: 'test003'
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - comment: test003
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:05:29 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:05:31 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:05:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:05:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:05:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:05:31 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:05:31 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:05:31 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:05:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:36 - [TEST_STEP][PASSED] - setText: Text '123456004' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:36 - [MESSAGE][PASSED] - Text '123456004' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:37 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:38 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:39 - [TEST_STEP][PASSED] - setText: Text '15263625412' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:39 - [MESSAGE][PASSED] - Text '15263625412' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:40 - [TEST_STEP][PASSED] - setText: Text '7425364@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:40 - [MESSAGE][PASSED] - Text '7425364@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:05:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:05:43 - [TEST_STEP][PASSED] - setText: Text '123456004' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:05:43 - [MESSAGE][PASSED] - Text '123456004' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:05:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:05:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:45 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:45 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:05:45 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '123456004'
+
+2019-04-17 11:05:46 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '123456004'
+
+2019-04-17 11:05:46 - [TEST_STEP][PASSED] - comment: 123456004
+
+2019-04-17 11:05:46 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:46 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:05:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:05:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:05:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:05:48 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:05:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:05:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:05:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:05:48 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:05:48 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:05:48 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:05:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:05:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:05:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:05:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:05:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:53 - [TEST_STEP][PASSED] - setText: Text '长字符验证长字符验证005' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:53 - [MESSAGE][PASSED] - Text '长字符验证长字符验证005' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:05:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:54 - [TEST_STEP][PASSED] - setText: Text '长字符验证长字符验证长字符验证长字符验证' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:55 - [MESSAGE][PASSED] - Text '长字符验证长字符验证长字符验证长字符验证' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:05:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:56 - [TEST_STEP][PASSED] - setText: Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:56 - [MESSAGE][PASSED] - Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:05:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:57 - [TEST_STEP][PASSED] - setText: Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:57 - [MESSAGE][PASSED] - Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:05:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:05:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:05:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:05:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:06:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:06:00 - [TEST_STEP][PASSED] - setText: Text '长字符验证长字符验证005' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:00 - [MESSAGE][PASSED] - Text '长字符验证长字符验证005' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '长字符验证长字符验证005'
+
+2019-04-17 11:06:02 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '长字符验证长字符验证005'
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - comment: 长字符验证长字符验证005
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:06:05 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:06:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:05 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:05 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:05 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:06:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:06:05 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:06:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:10 - [TEST_STEP][PASSED] - setText: Text '测试人员006' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:06:10 - [MESSAGE][PASSED] - Text '测试人员006' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:06:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:11 - [TEST_STEP][PASSED] - setText: Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:06:11 - [MESSAGE][PASSED] - Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:06:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:12 - [TEST_STEP][PASSED] - setText: Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:06:12 - [MESSAGE][PASSED] - Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:06:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:13 - [TEST_STEP][PASSED] - setText: Text '313546465@163.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:06:14 - [MESSAGE][PASSED] - Text '313546465@163.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:06:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:06:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:06:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:06:17 - [TEST_STEP][PASSED] - setText: Text '测试人员006' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:17 - [MESSAGE][PASSED] - Text '测试人员006' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员006'
+
+2019-04-17 11:06:19 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员006'
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - comment: 测试人员006
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:19 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:06:21 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:06:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:21 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:06:21 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:06:21 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:26 - [TEST_STEP][PASSED] - setText: Text '测试人员007' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:06:27 - [MESSAGE][PASSED] - Text '测试人员007' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:06:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:28 - [TEST_STEP][PASSED] - setText: Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:06:28 - [MESSAGE][PASSED] - Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:06:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:29 - [TEST_STEP][PASSED] - setText: Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:06:29 - [MESSAGE][PASSED] - Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:06:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:30 - [TEST_STEP][PASSED] - setText: Text '45456465@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:06:30 - [MESSAGE][PASSED] - Text '45456465@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:06:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:06:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:06:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:06:33 - [TEST_STEP][PASSED] - setText: Text '测试人员007' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:33 - [MESSAGE][PASSED] - Text '测试人员007' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员007'
+
+2019-04-17 11:06:36 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员007'
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - comment: 测试人员007
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:06:38 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:06:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:38 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:38 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:38 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:06:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:06:38 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:06:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:43 - [TEST_STEP][PASSED] - setText: Text '测试人员008' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:06:43 - [MESSAGE][PASSED] - Text '测试人员008' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:06:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:44 - [TEST_STEP][PASSED] - setText: Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:06:44 - [MESSAGE][PASSED] - Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:06:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:45 - [TEST_STEP][PASSED] - setText: Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:06:45 - [MESSAGE][PASSED] - Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:06:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:46 - [TEST_STEP][PASSED] - setText: Text '24s54255@outlook.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:06:47 - [MESSAGE][PASSED] - Text '24s54255@outlook.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:06:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:06:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:06:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:06:50 - [TEST_STEP][PASSED] - setText: Text '测试人员008' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:50 - [MESSAGE][PASSED] - Text '测试人员008' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:06:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:06:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员008'
+
+2019-04-17 11:06:52 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员008'
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - comment: 测试人员008
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:52 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:06:54 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:06:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:06:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:06:54 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:06:54 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:06:54 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:06:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:06:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:06:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:06:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:06:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:06:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:06:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:00 - [TEST_STEP][PASSED] - setText: Text '测试人员009' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:00 - [MESSAGE][PASSED] - Text '测试人员009' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:01 - [TEST_STEP][PASSED] - setText: Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:01 - [MESSAGE][PASSED] - Text '测试岗位1' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:02 - [TEST_STEP][PASSED] - setText: Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:02 - [MESSAGE][PASSED] - Text '15263625410' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:03 - [TEST_STEP][PASSED] - setText: Text 'f1224359483w90@gamil.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:03 - [MESSAGE][PASSED] - Text 'f1224359483w90@gamil.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:07:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:07:06 - [TEST_STEP][PASSED] - setText: Text '测试人员009' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:07:07 - [MESSAGE][PASSED] - Text '测试人员009' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:07:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:07:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员009'
+
+2019-04-17 11:07:09 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '测试人员009'
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - comment: 测试人员009
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:07:09 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" classname="Test Cases/002_System_,Manage/001_User_Manage/002_Add_user" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:07:11 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/002_Add_user: Test Cases/002_System_,Manage/001_User_Manage/002_Add_user
+
+2019-04-17 11:07:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:07:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:07:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:07:11 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:07:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:07:11 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:07:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:16 - [TEST_STEP][PASSED] - setText: Text '！@#￥%……09' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:16 - [MESSAGE][PASSED] - Text '！@#￥%……09' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:17 - [TEST_STEP][PASSED] - setText: Text '！@#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:18 - [MESSAGE][PASSED] - Text '！@#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:19 - [TEST_STEP][PASSED] - setText: Text '152564564868' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:19 - [MESSAGE][PASSED] - Text '152564564868' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:20 - [TEST_STEP][PASSED] - setText: Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:20 - [MESSAGE][PASSED] - Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-17 11:07:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 11:07:23 - [TEST_STEP][PASSED] - setText: Text '！@#￥%……09' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:07:23 - [MESSAGE][PASSED] - Text '！@#￥%……09' is set on object 'Object Repository/test/input__keyword'
+
+2019-04-17 11:07:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/test/button__layui-btn' is clicked on
+
+2019-04-17 11:07:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - Statement - Try: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1): Finding Test Object with id 'Object Repository/Syetem_settings/User_Manage/Search/td_number1'
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - Statement - data_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/td_number1), "data-content"): Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '！@#￥%……09'
+
+2019-04-17 11:07:25 - [MESSAGE][PASSED] - Attribute 'data-content' of object 'Object Repository/Syetem_settings/User_Manage/Search/td_number1' is: '！@#￥%……09'
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - comment: ！@#￥%……09
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - Statement - If (data_content == username): 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - comment: 列表中搜索到该用户，人员添加成功
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:07:25 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" classname="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:07:28 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique: Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique
+
+2019-04-17 11:07:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:07:28 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:07:28 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:07:28 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:07:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:07:28 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:32 - [TEST_STEP][PASSED] - setText: Text '！@#￥%……' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:33 - [MESSAGE][PASSED] - Text '！@#￥%……' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:34 - [TEST_STEP][PASSED] - setText: Text '！@#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:34 - [MESSAGE][PASSED] - Text '！@#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:35 - [TEST_STEP][PASSED] - setText: Text '！@#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:35 - [MESSAGE][PASSED] - Text '！@#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:36 - [TEST_STEP][PASSED] - setText: Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:36 - [MESSAGE][PASSED] - Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:37 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/tips_save), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/tips_save' is present
+
+2019-04-17 11:07:37 - [TEST_STEP][PASSED] - comment: 发现不能为空的提示
+
+2019-04-17 11:07:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:07:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:44 - [TEST_STEP][PASSED] - setText: Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:44 - [MESSAGE][PASSED] - Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:45 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:45 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:46 - [TEST_STEP][PASSED] - setText: Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:47 - [MESSAGE][PASSED] - Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:48 - [TEST_STEP][PASSED] - setText: Text '！#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:48 - [MESSAGE][PASSED] - Text '！#￥%……&*' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:07:48 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/save_email), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:07:48 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/save_email' is present
+
+2019-04-17 11:07:48 - [TEST_STEP][PASSED] - comment: 发现邮件格式不对的提示
+
+2019-04-17 11:07:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:07:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:07:49 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:07:49 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" classname="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:07:51 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique: Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique
+
+2019-04-17 11:07:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:07:51 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:07:51 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:07:51 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:07:51 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:07:51 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:07:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:07:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:07:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:07:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:07:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:55 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:07:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:57 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:07:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:07:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:07:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:07:59 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:07:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:00 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/tips_save), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:00 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/tips_save' is present
+
+2019-04-17 11:08:00 - [TEST_STEP][PASSED] - comment: 发现不能为空的提示
+
+2019-04-17 11:08:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:07 - [TEST_STEP][PASSED] - setText: Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:07 - [MESSAGE][PASSED] - Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:08 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:08 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:09 - [TEST_STEP][PASSED] - setText: Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:09 - [MESSAGE][PASSED] - Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:10 - [TEST_STEP][PASSED] - setText: Text '12434365' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:10 - [MESSAGE][PASSED] - Text '12434365' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:10 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/save_email), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/save_email' is present
+
+2019-04-17 11:08:10 - [TEST_STEP][PASSED] - comment: 发现邮件格式不对的提示
+
+2019-04-17 11:08:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:08:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:08:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" classname="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:08:13 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique: Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique
+
+2019-04-17 11:08:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:08:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:08:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:08:14 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:08:14 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:08:14 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:08:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:18 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:19 - [TEST_STEP][PASSED] - setText: Text '测试岗位6' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:19 - [MESSAGE][PASSED] - Text '测试岗位6' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:20 - [TEST_STEP][PASSED] - setText: Text '15263625415' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:20 - [MESSAGE][PASSED] - Text '15263625415' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:21 - [TEST_STEP][PASSED] - setText: Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:21 - [MESSAGE][PASSED] - Text '7425365@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:23 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/tips_save), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/tips_save' is present
+
+2019-04-17 11:08:23 - [TEST_STEP][PASSED] - comment: 发现不能为空的提示
+
+2019-04-17 11:08:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:29 - [TEST_STEP][PASSED] - setText: Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:29 - [MESSAGE][PASSED] - Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:30 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:30 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:31 - [TEST_STEP][PASSED] - setText: Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:32 - [MESSAGE][PASSED] - Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:33 - [TEST_STEP][PASSED] - setText: Text '3214243@' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:33 - [MESSAGE][PASSED] - Text '3214243@' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:33 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/save_email), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/save_email' is present
+
+2019-04-17 11:08:33 - [TEST_STEP][PASSED] - comment: 发现邮件格式不对的提示
+
+2019-04-17 11:08:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:08:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:08:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" classname="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:08:36 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique: Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique
+
+2019-04-17 11:08:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:08:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:08:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:08:36 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:08:36 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:08:36 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:41 - [TEST_STEP][PASSED] - setText: Text '测试人员7' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:41 - [MESSAGE][PASSED] - Text '测试人员7' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:42 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:43 - [TEST_STEP][PASSED] - setText: Text '15263625416' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:43 - [MESSAGE][PASSED] - Text '15263625416' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:44 - [TEST_STEP][PASSED] - setText: Text '7425368@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:44 - [MESSAGE][PASSED] - Text '7425368@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:45 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/tips_save), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:45 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/tips_save' is present
+
+2019-04-17 11:08:45 - [TEST_STEP][PASSED] - comment: 发现不能为空的提示
+
+2019-04-17 11:08:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:08:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:08:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:08:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:52 - [TEST_STEP][PASSED] - setText: Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:52 - [MESSAGE][PASSED] - Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:08:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:53 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:53 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:08:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:54 - [TEST_STEP][PASSED] - setText: Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:54 - [MESSAGE][PASSED] - Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:08:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:55 - [TEST_STEP][PASSED] - setText: Text '@fststgrst' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:55 - [MESSAGE][PASSED] - Text '@fststgrst' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:08:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:08:55 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/save_email), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:56 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/save_email' is present
+
+2019-04-17 11:08:56 - [TEST_STEP][PASSED] - comment: 发现邮件格式不对的提示
+
+2019-04-17 11:08:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:08:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:08:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:08:57 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:08:57 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" classname="Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique" status="PASSED">
+         <system-out><![CDATA[2019-04-17 11:08:59 - [TEST_CASE][PASSED] - Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique: Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique
+
+2019-04-17 11:08:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:08:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:08:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2019-04-17 11:08:59 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2019-04-17 11:08:59 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2019-04-17 11:08:59 - [TEST_STEP][PASSED] - comment: begain to add one new user!
+
+2019-04-17 11:08:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:08:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:09:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:09:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:09:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:03 - [TEST_STEP][PASSED] - setText: Text '测试人员8' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:09:03 - [MESSAGE][PASSED] - Text '测试人员8' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:09:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:04 - [TEST_STEP][PASSED] - setText: Text '测试岗位8' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:09:04 - [MESSAGE][PASSED] - Text '测试岗位8' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:09:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:05 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:09:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:09:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:06 - [TEST_STEP][PASSED] - setText: Text '7425368@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:09:07 - [MESSAGE][PASSED] - Text '7425368@qq.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:09:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:09:08 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/tips_save), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:09:08 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/tips_save' is present
+
+2019-04-17 11:09:08 - [TEST_STEP][PASSED] - comment: 发现不能为空的提示
+
+2019-04-17 11:09:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:09:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/a_ new_user' is clicked on
+
+2019-04-17 11:09:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/choose_dept' is clicked on
+
+2019-04-17 11:09:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/i__TreeNB' is clicked on
+
+2019-04-17 11:09:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/cite_CQDepart' is clicked on
+
+2019-04-17 11:09:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:15 - [TEST_STEP][PASSED] - setText: Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:09:15 - [MESSAGE][PASSED] - Text '验证邮箱格式' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_ RealName'
+
+2019-04-17 11:09:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:16 - [TEST_STEP][PASSED] - setText: Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:09:16 - [MESSAGE][PASSED] - Text '测试' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_position'
+
+2019-04-17 11:09:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:17 - [TEST_STEP][PASSED] - setText: Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:09:17 - [MESSAGE][PASSED] - Text '15263625413' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_mobile'
+
+2019-04-17 11:09:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:18 - [TEST_STEP][PASSED] - setText: Text '@163.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:09:19 - [MESSAGE][PASSED] - Text '@163.com' is set on object 'Object Repository/Syetem_settings/User_Manage/user_info/input_email'
+
+2019-04-17 11:09:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/button_ Save' is clicked on
+
+2019-04-17 11:09:19 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/save_email), 10)): Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:09:19 - [MESSAGE][PASSED] - Object 'Object Repository/Syetem_settings/User_Manage/user_info/save_email' is present
+
+2019-04-17 11:09:19 - [TEST_STEP][PASSED] - comment: 发现邮件格式不对的提示
+
+2019-04-17 11:09:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-17 11:09:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 11:09:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Syetem_settings/User_Manage/user_info/close_user' is clicked on
+
+2019-04-17 11:09:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2019-04-17 11:09:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2019-04-17 11:09:20 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 11:04:20 - [TEST_SUITE][PASSED] - new user: Test Cases/002_System_,Manage/001_User_Manage/003_Add_user_uique]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

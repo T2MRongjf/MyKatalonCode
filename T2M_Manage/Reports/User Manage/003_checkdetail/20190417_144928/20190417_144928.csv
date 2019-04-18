@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+003_checkdetail,Chrome 73.0.3683.75,\u67E5\u770B\u8BE6\u60C5,2019-04-17 15:04:53,2019-04-17 15:05:34,40.755s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/008_Check_detail",Chrome 73.0.3683.75,1.检查人员详情页面数据，验证数据是否与添加的数据一致，确认没有丢失。,2019-04-17 15:04:55,2019-04-17 15:05:34,39.590s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 15:04:55,2019-04-17 15:04:55,0.012s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 15:04:56,2019-04-17 15:05:14,17.628s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 15:05:14,2019-04-17 15:05:14,0.197s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 15:05:14,2019-04-17 15:05:15,1.006s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 15:05:15,2019-04-17 15:05:15,0.176s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 15:05:15,2019-04-17 15:05:16,1.005s,PASSED
+Statement - i = 1,Chrome 73.0.3683.75,,2019-04-17 15:05:16,2019-04-17 15:05:16,0.001s,PASSED
+Statement - userinfo = [],Chrome 73.0.3683.75,,2019-04-17 15:05:16,2019-04-17 15:05:16,0.001s,PASSED
+"Statement - For ([j = 1, j <= 5, (j++)])",Chrome 73.0.3683.75,,2019-04-17 15:05:16,2019-04-17 15:05:17,0.872s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 15:05:17,2019-04-17 15:05:17,0.119s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 15:05:17,2019-04-17 15:05:27,10.004s,PASSED
+Statement - userdetail = [],Chrome 73.0.3683.75,,2019-04-17 15:05:27,2019-04-17 15:05:27,0.002s,PASSED
+Statement - name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Details/realname),Chrome 73.0.3683.75,,2019-04-17 15:05:27,2019-04-17 15:05:28,0.022s,PASSED
+Statement - position = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Details/position),Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.011s,PASSED
+Statement - mobile = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Details/mobile),Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.008s,PASSED
+Statement - email = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Details/email),Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.005s,PASSED
+"Statement - element1 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(name, 30)",Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.052s,PASSED
+"Statement - element2 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(position, 30)",Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.023s,PASSED
+"Statement - element3 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(mobile, 30)",Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.026s,PASSED
+"Statement - element4 = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(email, 30)",Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.019s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.020s,PASSED
+Statement - js = driver,Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:28,0.014s,PASSED
+"Statement - value1 = js.executeScript(""return arguments[0].value"", element1).toString()",Chrome 73.0.3683.75,,2019-04-17 15:05:28,2019-04-17 15:05:32,4.035s,PASSED
+Statement - userdetail.add(value1),Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.001s,PASSED
+"Statement - value2 = js.executeScript(""return arguments[0].value"", element2).toString()",Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.023s,PASSED
+Statement - userdetail.add(value2),Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.001s,PASSED
+"Statement - value4 = js.executeScript(""return arguments[0].value"", element4).toString()",Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.018s,PASSED
+Statement - userdetail.add(value4),Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.002s,PASSED
+"Statement - value3 = js.executeScript(""return arguments[0].value"", element3).toString()",Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.018s,PASSED
+Statement - userdetail.add(value3),Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.001s,PASSED
+"Statement - duty = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Details/on_duty), 30)",Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.046s,PASSED
+"Statement - value5 = js.executeScript(""return $(""[name='state']"").val()"", duty).toString()",Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.006s,PASSED
+Statement - println(value5),Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.001s,PASSED
+"Statement - If (value5 == ""1"")",Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.003s,PASSED
+Statement - println(userdetail),Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.002s,PASSED
+Statement - If (userinfo == userdetail),Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 15:05:32,2019-04-17 15:05:32,0.004s,PASSED

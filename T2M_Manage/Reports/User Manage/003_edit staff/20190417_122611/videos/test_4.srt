@@ -1,0 +1,36 @@
+1
+00:00:00,251 --> 00:00:00,252
+1. callTestCase
+
+2
+00:00:00,253 --> 00:00:00,254
+5. maximizeWindow
+
+3
+00:00:01,496 --> 00:00:01,496
+9. setText
+
+4
+00:00:01,690 --> 00:00:01,690
+13. delay
+
+5
+00:00:02,693 --> 00:00:02,694
+17. click
+
+6
+00:00:03,058 --> 00:00:03,059
+1. Statement - println(testCaseContext.getTestCaseId())
+
+7
+00:00:03,059 --> 00:00:03,060
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+8
+00:00:05,184 --> 00:00:05,184
+1. Statement - println(testCaseContext.getTestCaseId())
+
+9
+00:00:05,185 --> 00:00:05,186
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

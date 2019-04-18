@@ -1,0 +1,92 @@
+1
+00:00:00,177 --> 00:00:00,178
+1. callTestCase
+
+2
+00:00:00,236 --> 00:00:00,236
+1. callTestCase
+
+3
+00:00:00,237 --> 00:00:00,237
+5. delay
+
+4
+00:00:01,237 --> 00:00:01,238
+9. click
+
+5
+00:00:01,311 --> 00:00:01,312
+13. delay
+
+6
+00:00:02,313 --> 00:00:02,314
+17. click
+
+7
+00:00:02,615 --> 00:00:02,615
+21. delay
+
+8
+00:00:03,616 --> 00:00:03,616
+25. Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0)
+
+9
+00:00:03,639 --> 00:00:03,639
+29. Statement - If (verify_user)
+
+10
+00:00:03,640 --> 00:00:03,641
+1. comment
+
+11
+00:00:03,642 --> 00:00:03,643
+5. maximizeWindow
+
+12
+00:00:03,648 --> 00:00:03,648
+9. Statement - Total_First1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/total_list), "innerText")
+
+13
+00:00:03,684 --> 00:00:03,685
+13. setText
+
+14
+00:00:03,804 --> 00:00:03,805
+17. delay
+
+15
+00:00:04,805 --> 00:00:04,805
+21. click
+
+16
+00:00:04,897 --> 00:00:04,897
+25. delay
+
+17
+00:00:05,898 --> 00:00:05,900
+29. Statement - For ([i = 1, i <= 1, (i++)])
+
+18
+00:00:05,902 --> 00:00:05,903
+1. Statement - first_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[1]/div/span", true)
+
+19
+00:00:05,934 --> 00:00:05,934
+5. Statement - data1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(first_btn, "innerText")
+
+20
+00:00:36,968 --> 00:00:36,969
+1. Statement - println(testCaseContext.getTestCaseId())
+
+21
+00:00:36,969 --> 00:00:36,969
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+22
+00:00:39,075 --> 00:00:39,075
+1. Statement - println(testCaseContext.getTestCaseId())
+
+23
+00:00:39,076 --> 00:00:39,076
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

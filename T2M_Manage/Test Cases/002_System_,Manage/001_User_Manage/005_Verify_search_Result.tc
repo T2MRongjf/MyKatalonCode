@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1.验证关键词与姓名一列中的结果是否匹配，是否支持模糊搜索；
+2.验证支持姓名模糊搜索，还是整个列表中的所有数据模糊匹配。</description>
+   <name>005_Verify_search_Result</name>
+   <tag></tag>
+   <comment>Start checking if the search results are match with the keyword</comment>
+   <testCaseGuid>3dfdf91e-3458-472a-bfad-f84c3bb300e9</testCaseGuid>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>312735b4-897f-4574-ba64-cea0d27f24dc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

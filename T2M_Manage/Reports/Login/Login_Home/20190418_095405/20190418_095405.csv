@@ -1,0 +1,105 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Home,Chrome 73.0.3683.75,,2019-04-18 09:54:08,2019-04-18 09:56:06,1m - 58.138s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/001_Navigate,Chrome 73.0.3683.75,检查网站是否能成功打开，不关闭浏览器。,2019-04-18 09:54:20,2019-04-18 09:54:29,9.031s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:20,2019-04-18 09:54:20,0.022s,PASSED
+openBrowser,Chrome 73.0.3683.75,,2019-04-18 09:54:20,2019-04-18 09:54:25,4.718s,PASSED
+navigateToUrl,Chrome 73.0.3683.75,,2019-04-18 09:54:25,2019-04-18 09:54:26,1.295s,PASSED
+comment,Chrome 73.0.3683.75,,2019-04-18 09:54:26,2019-04-18 09:54:26,0.083s,PASSED
+"Statement - item = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/button_ login), 20, STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:54:26,2019-04-18 09:54:27,0.176s,PASSED
+Statement - If (item == true),Chrome 73.0.3683.75,,2019-04-18 09:54:27,2019-04-18 09:54:27,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:27,2019-04-18 09:54:27,0.009s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/001_Login,Chrome 73.0.3683.75,错误账号和密码验证,2019-04-18 09:54:29,2019-04-18 09:54:43,13.654s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:29,2019-04-18 09:54:29,0.004s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:29,2019-04-18 09:54:36,6.946s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:36,2019-04-18 09:54:37,1.077s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:54:37,2019-04-18 09:54:37,0.138s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:37,2019-04-18 09:54:38,1.004s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:54:38,2019-04-18 09:54:39,0.293s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:39,2019-04-18 09:54:40,1.005s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:54:40,2019-04-18 09:54:40,0.111s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:54:40,2019-04-18 09:54:40,0.061s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:54:40,2019-04-18 09:54:40,0.003s,PASSED
+closeBrowser,Chrome 73.0.3683.75,,2019-04-18 09:54:40,2019-04-18 09:54:41,0.664s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:41,2019-04-18 09:54:41,0.006s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/001_Login,Chrome 73.0.3683.75,错误账号和密码验证,2019-04-18 09:54:43,2019-04-18 09:54:52,9.153s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:43,2019-04-18 09:54:43,0.005s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:43,2019-04-18 09:54:46,3.065s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:46,2019-04-18 09:54:47,1.004s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:54:47,2019-04-18 09:54:47,0.126s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:47,2019-04-18 09:54:48,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:54:48,2019-04-18 09:54:48,0.095s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:48,2019-04-18 09:54:49,1.001s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:54:49,2019-04-18 09:54:49,0.075s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:54:49,2019-04-18 09:54:49,0.030s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:54:49,2019-04-18 09:54:49,0.009s,PASSED
+closeBrowser,Chrome 73.0.3683.75,,2019-04-18 09:54:49,2019-04-18 09:54:50,0.624s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:50,2019-04-18 09:54:50,0.004s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/001_Login,Chrome 73.0.3683.75,错误账号和密码验证,2019-04-18 09:54:52,2019-04-18 09:55:01,9.207s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:52,2019-04-18 09:54:52,0.004s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:52,2019-04-18 09:54:55,2.996s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:55,2019-04-18 09:54:56,1.001s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:54:56,2019-04-18 09:54:56,0.184s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:56,2019-04-18 09:54:57,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:54:57,2019-04-18 09:54:57,0.122s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:57,2019-04-18 09:54:58,1.002s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:54:58,2019-04-18 09:54:58,0.080s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:54:58,2019-04-18 09:54:58,0.046s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:54:58,2019-04-18 09:54:58,0.002s,PASSED
+closeBrowser,Chrome 73.0.3683.75,,2019-04-18 09:54:58,2019-04-18 09:54:59,0.627s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:59,2019-04-18 09:54:59,0.003s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/002_Login,Chrome 73.0.3683.75,登录（记住密码）,2019-04-18 09:55:01,2019-04-18 09:55:22,21.365s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:01,2019-04-18 09:55:01,0.003s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:01,2019-04-18 09:55:04,2.867s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:04,2019-04-18 09:55:05,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:55:05,2019-04-18 09:55:05,0.131s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:05,2019-04-18 09:55:06,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:55:06,2019-04-18 09:55:06,0.148s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:06,2019-04-18 09:55:07,1.002s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)",Chrome 73.0.3683.75,,2019-04-18 09:55:07,2019-04-18 09:55:07,0.056s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-18 09:55:07,2019-04-18 09:55:07,0.005s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:55:07,2019-04-18 09:55:08,0.088s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40)",Chrome 73.0.3683.75,,2019-04-18 09:55:08,2019-04-18 09:55:08,0.666s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:55:08,2019-04-18 09:55:09,0.572s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:09,2019-04-18 09:55:09,0.003s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/003_Login,Chrome 73.0.3683.75,正常登录（不记住密码）,2019-04-18 09:55:22,2019-04-18 09:55:43,20.197s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:22,2019-04-18 09:55:22,0.004s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:23,2019-04-18 09:55:35,12.478s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:35,2019-04-18 09:55:36,1.001s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:55:36,2019-04-18 09:55:36,0.153s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:36,2019-04-18 09:55:37,1.006s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-18 09:55:37,2019-04-18 09:55:37,0.134s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:37,2019-04-18 09:55:38,1.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:55:38,2019-04-18 09:55:38,0.086s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:38,2019-04-18 09:55:39,1.002s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)",Chrome 73.0.3683.75,,2019-04-18 09:55:39,2019-04-18 09:55:39,0.066s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-18 09:55:39,2019-04-18 09:55:39,0.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:55:39,2019-04-18 09:55:40,0.072s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40)",Chrome 73.0.3683.75,,2019-04-18 09:55:40,2019-04-18 09:55:40,0.599s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:55:40,2019-04-18 09:55:41,0.357s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:41,2019-04-18 09:55:41,0.003s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/004_Forget_Login,Chrome 73.0.3683.75,验证记住密码功能是否正常,2019-04-18 09:55:43,2019-04-18 09:56:06,23.059s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:43,2019-04-18 09:55:43,0.004s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:43,2019-04-18 09:55:51,8.074s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:55:51,2019-04-18 09:55:51,0.210s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:55:51,2019-04-18 09:55:52,1.004s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 3)",Chrome 73.0.3683.75,,2019-04-18 09:55:52,2019-04-18 09:55:52,0.030s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-18 09:55:52,2019-04-18 09:55:52,0.006s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:55:52,2019-04-18 09:55:52,0.071s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:55:52,2019-04-18 09:55:53,0.531s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:55:53,2019-04-18 09:55:53,0.383s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:55:53,2019-04-18 09:56:02,9.013s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:56:02,2019-04-18 09:56:02,0.306s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:56:02,2019-04-18 09:56:03,1.002s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)",Chrome 73.0.3683.75,,2019-04-18 09:56:03,2019-04-18 09:56:03,0.052s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-18 09:56:03,2019-04-18 09:56:03,0.005s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:56:03,2019-04-18 09:56:04,0.091s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:56:04,2019-04-18 09:56:04,0.036s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:56:04,2019-04-18 09:56:04,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:56:04,2019-04-18 09:56:04,0.003s,PASSED

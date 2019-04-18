@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+005_delete,Chrome 73.0.3683.75,\u5220\u9664\u7528\u6237,2019-04-17 14:40:01,2019-04-17 14:40:56,55.333s,FAILED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/012_Delete_User",Chrome 73.0.3683.75,删除用户,2019-04-17 14:40:02,2019-04-17 14:40:31,29.618s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:40:02,2019-04-17 14:40:02,0.012s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:40:02,2019-04-17 14:40:20,17.817s,PASSED
+maximizeWindow,Chrome 73.0.3683.75,,2019-04-17 14:40:20,2019-04-17 14:40:21,1.036s,PASSED
+"Statement - Total_First1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/total_list), ""innerText"")",Chrome 73.0.3683.75,,2019-04-17 14:40:21,2019-04-17 14:40:21,0.069s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 14:40:21,2019-04-17 14:40:21,0.139s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:40:21,2019-04-17 14:40:22,1.005s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:40:22,2019-04-17 14:40:22,0.109s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:40:22,2019-04-17 14:40:23,1.002s,PASSED
+"Statement - For ([i = 1, i <= 1, (i++)])",Chrome 73.0.3683.75,,2019-04-17 14:40:23,2019-04-17 14:40:23,0.069s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:40:23,2019-04-17 14:40:28,5.002s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:40:28,2019-04-17 14:40:29,0.654s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:40:29,2019-04-17 14:40:29,0.008s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/013_cancel_delete",Chrome 73.0.3683.75,取消删除,2019-04-17 14:40:31,2019-04-17 14:40:56,25.191s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 14:40:31,2019-04-17 14:40:31,0.003s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 14:40:31,2019-04-17 14:40:45,13.607s,PASSED
+maximizeWindow,Chrome 73.0.3683.75,,2019-04-17 14:40:45,2019-04-17 14:40:46,1.095s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 14:40:46,2019-04-17 14:40:46,0.231s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:40:46,2019-04-17 14:40:47,1.004s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:40:47,2019-04-17 14:40:47,0.124s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:40:47,2019-04-17 14:40:48,1.004s,PASSED
+"Statement - For ([i = 1, i <= 1, (i++)])",Chrome 73.0.3683.75,,2019-04-17 14:40:48,2019-04-17 14:40:49,0.200s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 14:40:49,2019-04-17 14:40:54,5.002s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 14:40:54,2019-04-17 14:40:54,0.576s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 14:40:54,2019-04-17 14:40:54,0.005s,PASSED

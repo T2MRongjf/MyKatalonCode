@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Home,Chrome 73.0.3683.75,,2019-04-18 09:53:27,2019-04-18 09:54:38,1m - 10.973s,PASSED
+,,,,,,
+Test Cases/001_Login_Home/004_Forget_Login,Chrome 73.0.3683.75,验证记住密码功能是否正常,2019-04-18 09:53:32,2019-04-18 09:54:37,1m - 4.892s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-18 09:53:32,2019-04-18 09:53:32,0.012s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:53:32,2019-04-18 09:54:12,39.150s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:54:12,2019-04-18 09:54:12,0.561s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:12,2019-04-18 09:54:13,1.026s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 3)",Chrome 73.0.3683.75,,2019-04-18 09:54:13,2019-04-18 09:54:13,0.091s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-18 09:54:13,2019-04-18 09:54:13,0.004s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:54:13,2019-04-18 09:54:14,0.185s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:54:14,2019-04-18 09:54:14,0.972s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:54:14,2019-04-18 09:54:15,0.419s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:15,2019-04-18 09:54:33,17.777s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:54:33,2019-04-18 09:54:34,0.820s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-18 09:54:34,2019-04-18 09:54:35,1.006s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)",Chrome 73.0.3683.75,,2019-04-18 09:54:35,2019-04-18 09:54:35,0.052s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-18 09:54:35,2019-04-18 09:54:35,0.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-18 09:54:35,2019-04-18 09:54:35,0.245s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/label_incorrect), 30, CONTINUE_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-18 09:54:35,2019-04-18 09:54:35,0.040s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-18 09:54:35,2019-04-18 09:54:35,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-18 09:54:35,2019-04-18 09:54:35,0.019s,PASSED

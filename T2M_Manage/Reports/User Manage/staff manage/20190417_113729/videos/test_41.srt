@@ -1,0 +1,84 @@
+1
+00:00:00,155 --> 00:00:00,155
+1. callTestCase
+
+2
+00:00:00,236 --> 00:00:00,236
+1. callTestCase
+
+3
+00:00:00,237 --> 00:00:00,237
+5. delay
+
+4
+00:00:01,238 --> 00:00:01,239
+9. click
+
+5
+00:00:01,333 --> 00:00:01,333
+13. delay
+
+6
+00:00:02,336 --> 00:00:02,337
+17. click
+
+7
+00:00:02,660 --> 00:00:02,660
+21. delay
+
+8
+00:00:03,661 --> 00:00:03,661
+25. Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0)
+
+9
+00:00:03,684 --> 00:00:03,684
+29. Statement - If (verify_user)
+
+10
+00:00:03,685 --> 00:00:03,685
+1. comment
+
+11
+00:00:03,687 --> 00:00:03,688
+5. maximizeWindow
+
+12
+00:00:03,693 --> 00:00:03,694
+9. setText
+
+13
+00:00:03,890 --> 00:00:03,890
+13. delay
+
+14
+00:00:04,891 --> 00:00:04,891
+17. click
+
+15
+00:00:05,039 --> 00:00:05,040
+21. delay
+
+16
+00:00:06,040 --> 00:00:06,041
+25. Statement - For ([i = 1, i <= 1, (i++)])
+
+17
+00:00:06,042 --> 00:00:06,042
+1. Statement - first_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/Search/tr_td), "xpath", "equals", "//div[@id="mainContent"]/div[2]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[" + i + "]/td[1]/div/span", true)
+
+18
+00:00:06,045 --> 00:00:06,046
+5. Statement - data1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(first_btn, "innerText")
+
+19
+00:00:37,012 --> 00:00:37,013
+1. Statement - println(testCaseContext.getTestCaseId())
+
+20
+00:00:37,013 --> 00:00:37,014
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+21
+00:00:39,112 --> 00:00:39,112
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

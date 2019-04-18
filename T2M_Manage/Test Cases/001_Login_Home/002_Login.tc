@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>登录（记住密码）</description>
+   <name>002_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa9e90b2-bf2a-4978-a6b7-e1bdd4cbf806</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>fdd0141c-5c6c-4661-8048-9ad7b7d217a4</id>
+      <masked>false</masked>
+      <name>account_normal</name>
+   </variable>
+   <variable>
+      <defaultValue>'654321'</defaultValue>
+      <description></description>
+      <id>c2e6f383-bea3-4013-980c-f46bdb32961c</id>
+      <masked>false</masked>
+      <name>pwd_normal</name>
+   </variable>
+</TestCaseEntity>

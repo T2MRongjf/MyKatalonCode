@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+003_edit staff,Chrome 73.0.3683.75,\u7F16\u8F91\u7528\u6237,2019-04-17 11:56:50,2019-04-17 11:57:47,56.567s,FAILED
+,,,,,,
+Test Cases/001_Login_Home/002_Login,Chrome 73.0.3683.75,登录（记住密码）,2019-04-17 11:56:51,2019-04-17 11:57:04,12.957s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 11:56:51,2019-04-17 11:56:51,0.007s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 11:56:51,2019-04-17 11:56:57,5.676s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:56:57,2019-04-17 11:56:58,1.012s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:56:58,2019-04-17 11:56:59,0.409s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:56:59,2019-04-17 11:57:00,1.005s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:00,2019-04-17 11:57:00,0.244s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:00,2019-04-17 11:57:01,1.008s,PASSED
+"Statement - R = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/remember_password), 10)",Chrome 73.0.3683.75,,2019-04-17 11:57:01,2019-04-17 11:57:01,0.051s,PASSED
+Statement - If (R),Chrome 73.0.3683.75,,2019-04-17 11:57:01,2019-04-17 11:57:01,0.004s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:01,2019-04-17 11:57:01,0.096s,PASSED
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homepage/a_homepage), 40)",Chrome 73.0.3683.75,,2019-04-17 11:57:01,2019-04-17 11:57:02,0.614s,PASSED
+Statement - If (a),Chrome 73.0.3683.75,,2019-04-17 11:57:02,2019-04-17 11:57:02,0.277s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:02,2019-04-17 11:57:02,0.008s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/001_Enter_User",Chrome 73.0.3683.75,从系统设置进入人员管理,2019-04-17 11:57:04,2019-04-17 11:57:10,5.668s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:04,2019-04-17 11:57:04,0.003s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:04,2019-04-17 11:57:04,0.002s,NOT_RUN
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:04,2019-04-17 11:57:05,1.005s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:05,2019-04-17 11:57:05,0.103s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:05,2019-04-17 11:57:06,1.002s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:06,2019-04-17 11:57:07,0.287s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:07,2019-04-17 11:57:08,1.006s,PASSED
+"Statement - verify_user = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/cite_usertable), 0)",Chrome 73.0.3683.75,,2019-04-17 11:57:08,2019-04-17 11:57:08,0.036s,PASSED
+Statement - If (verify_user),Chrome 73.0.3683.75,,2019-04-17 11:57:08,2019-04-17 11:57:08,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:08,2019-04-17 11:57:08,0.005s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/009_check_userEditpage",Chrome 73.0.3683.75,1.打开编辑窗口，检查列表中的数据与编辑页面数据一致。,2019-04-17 11:57:10,2019-04-17 11:57:15,4.892s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:10,2019-04-17 11:57:10,0.005s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:10,2019-04-17 11:57:12,2.467s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:12,2019-04-17 11:57:12,0.008s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/010_Edit_User_error",Chrome 73.0.3683.75,"1.搜索人员，并编辑第一个。
+验证当必填项为空的时候，应该对应弹出提示；
+验证邮箱格式不对的时候，演出对应提示；验证号码只能支持数字输入，其他字符无法输入",2019-04-17 11:57:15,2019-04-17 11:57:42,27.749s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:15,2019-04-17 11:57:15,0.003s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:15,2019-04-17 11:57:18,3.574s,PASSED
+maximizeWindow,Chrome 73.0.3683.75,,2019-04-17 11:57:18,2019-04-17 11:57:20,1.120s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:20,2019-04-17 11:57:20,0.105s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:20,2019-04-17 11:57:21,1.001s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:21,2019-04-17 11:57:21,0.099s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:21,2019-04-17 11:57:22,1.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:22,2019-04-17 11:57:22,0.118s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:22,2019-04-17 11:57:24,2.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:24,2019-04-17 11:57:24,0.132s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:24,2019-04-17 11:57:25,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:25,2019-04-17 11:57:25,0.116s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:25,2019-04-17 11:57:26,1.001s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:26,2019-04-17 11:57:26,0.198s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:26,2019-04-17 11:57:27,1.001s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:27,2019-04-17 11:57:27,0.118s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:27,2019-04-17 11:57:28,1.004s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:28,2019-04-17 11:57:29,0.127s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/tips_save), 10))",Chrome 73.0.3683.75,,2019-04-17 11:57:29,2019-04-17 11:57:30,1.164s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:30,2019-04-17 11:57:31,1.001s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:31,2019-04-17 11:57:31,0.101s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:31,2019-04-17 11:57:32,1.002s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:32,2019-04-17 11:57:32,0.096s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:32,2019-04-17 11:57:33,1.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:33,2019-04-17 11:57:33,0.109s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:33,2019-04-17 11:57:34,1.003s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:34,2019-04-17 11:57:34,0.123s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:34,2019-04-17 11:57:35,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:35,2019-04-17 11:57:35,0.128s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:35,2019-04-17 11:57:36,1.001s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:36,2019-04-17 11:57:37,0.213s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:37,2019-04-17 11:57:38,1.001s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:38,2019-04-17 11:57:38,0.166s,PASSED
+delay,Chrome 73.0.3683.75,,2019-04-17 11:57:38,2019-04-17 11:57:39,1.002s,PASSED
+setText,Chrome 73.0.3683.75,,2019-04-17 11:57:39,2019-04-17 11:57:39,0.217s,PASSED
+click,Chrome 73.0.3683.75,,2019-04-17 11:57:39,2019-04-17 11:57:39,0.136s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Syetem_settings/User_Manage/user_info/save_email), 10))",Chrome 73.0.3683.75,,2019-04-17 11:57:39,2019-04-17 11:57:40,1.121s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:40,2019-04-17 11:57:40,0.003s,PASSED
+,,,,,,
+"Test Cases/002_System_,Manage/001_User_Manage/011_edit_user_normal",Chrome 73.0.3683.75,信息全部输入，或者支持不填写邮箱，保存成功。最后通过搜索刚才编辑的用户，验证是否成功编辑。,2019-04-17 11:57:42,2019-04-17 11:57:47,4.765s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:42,2019-04-17 11:57:42,0.007s,PASSED
+callTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:43,2019-04-17 11:57:45,2.460s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 73.0.3683.75,,2019-04-17 11:57:45,2019-04-17 11:57:45,0.004s,PASSED

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login_Home</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-04-18T09:54:05</lastRun>
+   <mailRecipient>jianfang.rong@t2mobile.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <testSuiteGuid>2cde1398-2119-4116-b427-a20b6a6019f2</testSuiteGuid>
+   <testCaseLink>
+      <guid>a9d2be2b-8d9c-4405-a7a7-f13b4c174c7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/001_Login_Home/001_Navigate</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>985efc44-38fd-4870-b5d0-cf3d86f4a9d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/001_Login_Home/001_Login</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>8c33da31-8a44-4562-9f45-7c96dbbc703d</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login account</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8c33da31-8a44-4562-9f45-7c96dbbc703d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>account</value>
+         <variableId>05f8f9ec-8b52-45dc-b725-b20b4ca86a38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8c33da31-8a44-4562-9f45-7c96dbbc703d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pwd</value>
+         <variableId>f124a5f0-db0b-4d1d-9c5f-c304d358d3a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0d6858d-5d26-4a9f-97c4-0294c3f74c59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/001_Login_Home/002_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>76ba7f79-0206-40ae-81db-e819c70af98e</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>4-4</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login account</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>76ba7f79-0206-40ae-81db-e819c70af98e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>account</value>
+         <variableId>fdd0141c-5c6c-4661-8048-9ad7b7d217a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76ba7f79-0206-40ae-81db-e819c70af98e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pwd</value>
+         <variableId>c2e6f383-bea3-4013-980c-f46bdb32961c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>89c71887-297c-44e2-a350-164d15c2cb3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/001_Login_Home/003_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c21157f8-2d36-4fab-a5f7-3d6dc4ebcdcf</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>4-4</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login account</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c21157f8-2d36-4fab-a5f7-3d6dc4ebcdcf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>account</value>
+         <variableId>4440fe4f-c11f-44d3-8a6d-4253742fd29c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c21157f8-2d36-4fab-a5f7-3d6dc4ebcdcf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pwd</value>
+         <variableId>b959285a-9c3d-4f4f-937e-f73e4bc5de1e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf70d84a-f39c-401c-90f4-bd37553c11ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/001_Login_Home/004_Forget_Login</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

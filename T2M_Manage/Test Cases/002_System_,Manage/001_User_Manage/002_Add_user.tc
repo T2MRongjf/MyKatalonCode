@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>信息全部输入，或者支持不填写邮箱，保存成功。最后通过搜索刚才添加的用户，验证是否成功添加。</description>
+   <name>002_Add_user</name>
+   <tag></tag>
+   <comment>begain to add one new user!</comment>
+   <testCaseGuid>bdf3a32f-04e9-46a2-9464-adfe76b38394</testCaseGuid>
+   <variable>
+      <defaultValue>'可以的'</defaultValue>
+      <description></description>
+      <id>992a0129-d7b9-4f2b-865f-e873bdc0da98</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>7d8278df-673e-4a78-9ffb-ff868ddc453d</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+   <variable>
+      <defaultValue>'12563254587'</defaultValue>
+      <description></description>
+      <id>10faaab8-b911-4a05-b54e-063b5d84a5bc</id>
+      <masked>false</masked>
+      <name>mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>'724376305@qq.com'</defaultValue>
+      <description></description>
+      <id>f75d885a-b6b1-4e7e-89a6-682fcbb76300</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

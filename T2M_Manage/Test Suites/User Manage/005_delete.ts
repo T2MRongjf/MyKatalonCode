@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>删除用户</description>
+   <name>005_delete</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-04-17T14:49:28</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>a70caba0-8c23-466c-bed4-f1e742651128</testSuiteGuid>
+   <testCaseLink>
+      <guid>a8c977e2-1d26-4936-9c0a-c3e5a8d71d75</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/002_System_,Manage/001_User_Manage/012_Delete_User</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0594783-0cbc-4f0f-bcdf-3cfde2d6251a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41389671-5a1d-4c01-8396-40eb8cfb9a56</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7cbf16d3-0f7f-4fc8-925b-01b735b80f42</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/002_System_,Manage/001_User_Manage/013_cancel_delete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>351c73a4-28a9-498a-a081-1a56d42889bb</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>10-10</value>
+         </iterationEntity>
+         <testDataId>Data Files/userinfo</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>351c73a4-28a9-498a-a081-1a56d42889bb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>用户名</value>
+         <variableId>78541010-6981-4742-b5f3-261bb979e69b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

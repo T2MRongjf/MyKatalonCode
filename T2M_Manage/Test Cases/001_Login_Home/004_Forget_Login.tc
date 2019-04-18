@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>验证记住密码功能是否正常</description>
+   <name>004_Forget_Login</name>
+   <tag></tag>
+   <comment>Not find the HomePage button</comment>
+   <testCaseGuid>9d724086-c46d-4b73-8c8c-ada42fce6172</testCaseGuid>
+</TestCaseEntity>
